@@ -114,8 +114,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfc9f4</string>
-				<!-- <string>#b4addf</string> -->
+				<!-- <string>#cfc9f4</string> -->
+				<string>#b4addf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -126,7 +126,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#82B4E3</string>
+				<!-- <string>#82B4E3</string> -->
+				<string>#b4addf</string>
+				<!-- <string>#a29acb</string> -->
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -139,8 +141,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A29ACB</string>
-				<!-- <string>#948484</string> -->
+				<!-- <string>#A29ACB</string> -->
+				<string>#948484</string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,8 +186,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CE9AE8</string>
-				<!-- <string>#cfc9f4</string> -->
+				<!-- <string>#CE9AE8</string> -->
+				<string>#cfc9f4</string>
 			</dict>
 		</dict>
 		<dict>
