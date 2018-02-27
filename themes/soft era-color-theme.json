@@ -6,7 +6,16 @@
 		"editor.foreground": "#C8B3B3",
 		"editorWhitespace.foreground": "#d6d5d4",
 		"editor.lineHighlightBackground": "#F9F5F5",
-		"editor.selectionBackground": "#ECEAFA"
+		"editor.selectionBackground": "#ECEAFA",
+		"statusBar.background": "#F3F3F3",
+		"statusBar.noFolderBackground": "#F3F3F3",
+		"statusBar.debuggingBackground": "#F3F3F3",
+		"statusBar.foreground": "#8F8F8F",
+		"activityBar.background": "#f3f3f3",
+		"activityBar.foreground": "#8f8f8f",
+		// "activityBarBadge.background": "#FF7DFB",
+		"activityBarBadge.background": "#eeaabe",
+		"activityBarBadge.foreground": "#ffffff"
 	},
 	"name": "soft era"
 }
