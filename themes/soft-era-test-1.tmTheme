@@ -74,7 +74,8 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->
+			<string>punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -330,7 +331,8 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#01a0e4</string>
+				<!-- <string>#01a0e4</string> -->
+				<string>#25b7b8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -352,7 +354,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ed0c8c</string>
+				<string>#948484</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -389,7 +391,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC57B4</string>
+				<string>#db90a7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -411,7 +413,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#db2d20</string>
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#db90a7</string> -->
+				<!-- <string>#cfc9f4</string> -->
+				<string>#b4addf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -422,7 +427,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ed0c8c</string>
+				<string>#eeaabe</string>
 			</dict>
 		</dict>
 		<dict>
