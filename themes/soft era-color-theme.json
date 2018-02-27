@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./soft-era-test-1.tmTheme",
+	"colors": {
+		"editor.background": "#F9F5F5",
+		"editorCursor.foreground": "#EEAABE",
+		"editor.foreground": "#C8B3B3",
+		"editorWhitespace.foreground": "#d6d5d4",
+		"editor.lineHighlightBackground": "#F9F5F5",
+		"editor.selectionBackground": "#ECEAFA"
+	},
+	"name": "soft era"
+}

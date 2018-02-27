@@ -1,0 +1,22 @@
+{
+    "name": "soft-era",
+    "displayName": "soft era",
+    "description": "Light pastel syntax theme for soft, warm, cozy, cute coding",
+    "version": "0.0.1",
+    "publisher": "audreymoon",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "soft era",
+                "uiTheme": "vs",
+                "path": "./themes/soft era-color-theme.json"
+            }
+        ]
+    }
+}
