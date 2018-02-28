@@ -114,8 +114,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfc9f4</string>
-				<!-- <string>#b4addf</string> -->
+				<!-- <string>#cfc9f4</string> -->
+				<string>#b4addf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -145,13 +145,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Functions</string>
+			<string>Storage</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25B7B8</string>
+				<!-- <string>#CE9AE8</string> -->
+				<string>#cfc9f4</string>
+				<!-- <string>#b4addf</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -167,9 +169,22 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Methods</string>
+			<string>Types</string>
 			<key>scope</key>
-			<string>keyword.other.special-method</string>
+			<string>entity.name.type, storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#0000ff</string> -->
+				<!-- <string>#b4addf</string> -->
+				<string>#a29acb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>entity.name.function, meta.require, support.function.any-method, storage.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -178,14 +193,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Methods</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CE9AE8</string>
-				<!-- <string>#cfc9f4</string> -->
+				<string>#25B7B8</string>
 			</dict>
 		</dict>
 		<dict>
