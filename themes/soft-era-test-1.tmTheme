@@ -23,11 +23,11 @@
 		<key>divider</key>
 		<string>#f7f7f7</string>
 		<key>foreground</key>
-		<string>#4a4543</string>
+		<string>#e2d1d1</string>
 		<key>selectionBackground</key>
-		<string>#f7f7f7</string>
+		<string>#293134</string>
 		<key>selectionForeground</key>
-		<string>#a5a2a2</string>
+		<string>#b4addf</string>
 	</dict>
 	<key>settings</key>
 	<array>
@@ -142,7 +142,8 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#A29ACB</string> -->
-				<string>#948484</string>
+				<!-- <string>#948484</string> -->
+				<string>#82b4e3</string>
 			</dict>
 		</dict>
 		<dict>
