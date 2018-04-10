@@ -1,13 +1,41 @@
-# README
-## This is the README for your extension "soft-era"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# \~ soft era \~
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+### syntax theme for [Atom](https://atom.io/)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+🌸 Light pastel syntax theme for cozy, cute coding. 🌱
 
-**Enjoy!**
+![soft era syntax theme screenshot](screenshot.png)
+
+~.~
+<br>&nbsp;&nbsp;a soft, warm, low contrast theme,
+<br>&nbsp;&nbsp;with pastel accents that are easy on your eyes
+
+^.^
+<br>&nbsp;&nbsp;make stuff and learn.
+<br>&nbsp;&nbsp;make the world your kinda place.
+<br>&nbsp;&nbsp;take care of the people around you
+
+🌿
+
+---
+
+## Installation
+
+- Currently in alpha state and not released. you will have to download this floder and add it under `/Users/USERNAME/.vscode/extensions/` (on mac)
+
+
+💾 enjoy <3
+
+---
+
+## Contributing
+
+### TODO:
+- [ ] full pass on logic behind the coloring of various elements
+- [ ] full pass on scoped definitions — probably start working over the code from a theme like [Dracula](https://github.com/dracula/visual-studio-code) that applies of a lot of nice variations to type (italics etc) at various scopes.
+
+---
+
+Happy to hear any input <3
+
+💖 [@animalphase](https://twitter.com/animalphase) on twitter
