@@ -1,6 +1,8 @@
 # \~ soft era \~
 
-### syntax theme for [Atom](https://atom.io/)
+🌸 Light pastel syntax theme for cozy, cute coding. 🌱
+
+## syntax theme for [VS Code](https://code.visualstudio.com/)
 
 🌸 Light pastel syntax theme for cozy, cute coding. 🌱
 
