@@ -1,8 +1,8 @@
 # \~ soft era \~
 
-🌸 Light pastel syntax theme for soft, warm, cozy, cute coding. 🌱
-
 ## syntax theme for [VS Code](https://code.visualstudio.com/)
+
+🌸 Light pastel syntax theme for soft, warm, cozy, cute coding. 🌱
 
 ![soft era syntax theme screenshot](screenshot.png)
 
