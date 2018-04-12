@@ -4,7 +4,7 @@
 
 🌸 Light pastel syntax theme for soft, warm, cozy, cute coding. 🌱
 
-![soft era syntax theme screenshot](screenshot.png)
+![soft era syntax theme screenshot](screenshot1.png)
 
 ~.~
 <br>&nbsp;&nbsp;a soft, warm, low contrast theme,
@@ -26,14 +26,7 @@
 
 💾 enjoy <3
 
----
-
-## Contributing
-
-### TODO:
-- [ ] full pass on logic behind the coloring of various elements
-- [ ] full pass on scoped definitions — probably start working over the code from a theme like [Dracula](https://github.com/dracula/visual-studio-code) that applies of a lot of nice variations to type (italics etc) at various scopes.
-- [ ] apply theme colors to the integrated terminal
+![soft era syntax theme screenshot](screenshot2.png)
 
 ---
 
