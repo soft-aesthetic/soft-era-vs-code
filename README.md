@@ -1,12 +1,12 @@
 # \~ soft era \~
 
-🌸 Light pastel syntax theme for soft, warm, cozy, cute coding. 🌱
+### syntax theme for [VS Code](https://code.visualstudio.com/)
 
-## syntax theme for [VS Code](https://code.visualstudio.com/)
+🌸 Light pastel syntax theme for soft, warm, cozy, cute coding. 🌱
 
 ![soft era syntax theme screenshot](screenshot.png)
 
-~.~
+\~.\~
 <br>&nbsp;&nbsp;a soft, warm, low contrast theme,
 <br>&nbsp;&nbsp;with pastel accents that are easy on your eyes
 
@@ -17,22 +17,25 @@
 
 🌿
 
----
-
 ## Installation
 
-- Currently in alpha state and not released. you will have to download this floder and add it under `/Users/USERNAME/.vscode/extensions/` (on mac)
+- Click **Install** on the [VS Code marketplace page for **soft era**](https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\- or \-**
+
+- In the VS Code application, go to **Extensions** 
+  - (the square icon on the sidebar, or **View > Extensions**)
+- Search for `soft era`
+- Click the **Install** button
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\- 👉THEN \-**
+
+- After installing this theme, click the blue **Reload** button (or quit and re-launch the editor).
+- Go to **Preferences > Color Theme**
+- Select `soft era` from the list of installed themes
 
 
 💾 enjoy <3
-
----
-
-## Contributing
-
-### TODO:
-- [ ] full pass on logic behind the coloring of various elements
-- [ ] full pass on scoped definitions — probably start working over the code from a theme like [Dracula](https://github.com/dracula/visual-studio-code) that applies of a lot of nice variations to type (italics etc) at various scopes.
 
 ---
 
