@@ -22,7 +22,7 @@
 ## Installation
 
 - Currently in alpha state and not released. 
-- You will have to download this folder and add it under `~/.vscode/extensions/` (on mac)
+- You will have to download this folder and add it under `~/.vscode/extensions/` on mac or `C:\Users\[username]\.vscode\extensions` on windows
 - Then select from `Code / Preferences / Color Themes > soft era`
 
 
