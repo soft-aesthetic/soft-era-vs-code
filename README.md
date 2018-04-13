@@ -17,8 +17,6 @@
 
 🌿
 
----
-
 ## Installation
 
 - Click **Install** on the [VS Code marketplace page for **soft era**](https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme)
