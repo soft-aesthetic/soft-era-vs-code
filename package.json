@@ -1,21 +1,41 @@
 {
-    "name": "soft-era",
+    "name": "soft-era-theme",
     "displayName": "soft era",
-    "description": "Light pastel syntax theme for soft, warm, cozy, cute coding",
-    "version": "0.0.1",
-    "publisher": "audreymoon",
+    "homepage": "https://github.com/soft-aesthetic/",
+    "description": "🌸 Light pastel syntax theme for soft, warm, cozy, cute coding & typing 🌱",
+    "version": "0.2.0",
+    "publisher": "soft-aesthetic",
+    "license": "MIT",
+    "maintainers": [
+        "Audrey Moon <audrey@loveme.computer>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/soft-aesthetic/soft-era-vs-code.git"
+    },
+    "bugs": {
+        "url": "https://github.com/soft-aesthetic/soft-era-vs-code/issues"
+    },
     "engines": {
         "vscode": "^1.19.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "cute",
+        "femme",
+        "light",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
                 "label": "soft era",
                 "uiTheme": "vs",
-                "path": "./themes/soft era-color-theme.json"
+                "path": "./themes/soft-era-color-theme.json"
             }
         ]
     }

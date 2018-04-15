@@ -6,7 +6,7 @@
 
 ![soft era syntax theme screenshot](screenshot.png)
 
-~.~
+\~.\~
 <br>&nbsp;&nbsp;a soft, warm, low contrast theme,
 <br>&nbsp;&nbsp;with pastel accents that are easy on your eyes
 
@@ -17,18 +17,27 @@
 
 🌿
 
----
-
 ## Installation
 
-- Currently in alpha state and not released. 
+&nbsp;&nbsp;&nbsp;&nbsp;**\- or \-**
+
+- In the VS Code application, go to **Extensions** 
+  - (the square icon on the sidebar, or **View > Extensions**)
+- Search for `soft era`
+- Click the **Install** button
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\- 👉THEN \-**
+
+- After installing this theme, click the blue **Reload** button (or quit and re-launch the editor).
+- Go to **Preferences > Color Theme**
+- Select `soft era` from the list of installed themes
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\- or, to clone/download this repo and manually add: \-**
+
 - You will have to download this folder and add it under `~/.vscode/extensions/` on mac or `C:\Users\[username]\.vscode\extensions` on windows
-- Then select from `Code / Preferences / Color Themes > soft era`
 
 
 💾 enjoy <3
-
-![soft era syntax theme screenshot](screenshot2.png)
 
 ---
 
