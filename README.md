@@ -19,20 +19,22 @@
 
 ## Installation
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\- or \-**
+- Click **Install** on the [VS Code marketplace page for **soft era**](https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**or**
 
 - In the VS Code application, go to **Extensions** 
   - (the square icon on the sidebar, or **View > Extensions**)
 - Search for `soft era`
 - Click the **Install** button
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\- 👉THEN \-**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**👉THEN,**
 
 - After installing this theme, click the blue **Reload** button (or quit and re-launch the editor).
 - Go to **Preferences > Color Theme**
 - Select `soft era` from the list of installed themes
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\- or, to clone/download this repo and manually add: \-**
+#### Clone/download and manually install:
 
 - You will have to download this folder and add it under `~/.vscode/extensions/` on mac or `C:\Users\[username]\.vscode\extensions` on windows
 
