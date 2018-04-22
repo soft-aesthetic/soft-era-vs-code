@@ -39,11 +39,11 @@
 				<key>caret</key>
 				<string>#EEAABE</string>
 				<key>foreground</key>
-				<string>#C8B3B3</string>
+				<string>#ba989c</string>
 				<key>invisibles</key>
 				<string>#d6d5d4</string>
 				<key>lineHighlight</key>
-				<string>#F9F5F5</string>
+				<string>#fdfbfb</string>
 				<key>selection</key>
 				<string>#ECEAFA</string>
 			</dict>
@@ -67,7 +67,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9D9D9D99</string>
+				<!-- <string>#9D9D9D99</string> -->
+				<!-- <string>#CCCACA</string> -->
+				<string>#ccc5c5</string>
 			</dict>
 		</dict>
 		<dict>

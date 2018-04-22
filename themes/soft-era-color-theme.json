@@ -1,9 +1,10 @@
 {
 	"tokenColors": "./soft-era-test-1.tmTheme",
 	"colors": {
-		"editor.background": "#F9F5F5",
-		"editor.foreground": "#C8B3B3",
-		"editorLineNumber.foreground": "#e2d1d1",
+		"editor.background": "#f9f5f5",
+		// "editor.foreground": "#c8b3b3",
+		"editor.foreground": "#ba989c",
+		"editorLineNumber.foreground": "#e7d8d8",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#414141",
 		"editorWhitespace.foreground": "#d6d5d4",
@@ -15,7 +16,6 @@
 		"statusBar.foreground": "#8F8F8F",
 		"activityBar.background": "#f3f3f3",
 		"activityBar.foreground": "#8f8f8f",
-		// "activityBarBadge.background": "#FF7DFB",
 		"activityBarBadge.background": "#eeaabe",
 		"activityBarBadge.foreground": "#ffffff"
 	},
