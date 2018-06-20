@@ -2,8 +2,13 @@
 	"tokenColors": "./soft-era-test-1.tmTheme",
 	"colors": {
 		"editor.background": "#f9f5f5",
+		// "editor.foreground": "#e2d1d1",
 		// "editor.foreground": "#c8b3b3",
+		// "editor.foreground": "#bfa4a4",
+		// "editor.foreground": "#ba989c",
 		"editor.foreground": "#ba989c",
+		// "editor.foreground": "#948484",
+		// "editor.foreground": "#4a4543",
 		"editorLineNumber.foreground": "#e7d8d8",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#414141",
