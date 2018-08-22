@@ -124,7 +124,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC57B4</string>
+				<!-- <string>#EC57B4</string> -->
+				<!-- <string>#ede7c5</string> -->
+				<!-- <string>#dce3a0</string> -->
+				<string>#e8dea2</string>
+				<!-- <string>#CABF9A</string> -->
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -266,13 +270,28 @@
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#82B4E3</string>
 				<key>background</key>
 				<string>#E9E4E18A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82B4E3</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<!-- <key>background</key>
+				<string>#E9E4E18A</string> -->
 			</dict>
 		</dict>
 		<dict>
