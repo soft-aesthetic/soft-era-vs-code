@@ -8,7 +8,26 @@
 		"editor.foreground": "#ba989c",
 		// "editor.foreground": "#948484",
 		// "editor.foreground": "#4a4543",
+		// "editor.findMatchBackground": "#e4846f", //current match reult
+		// "editor.findMatchBackground": "#e4846f", //current match reult
+		// "editor.findMatchBackground": "#ffffff", //current match reult
+		// "editor.findMatchBackground": "#ffe8e3", //current match reult
+		// "editor.findMatchBackground": "#fff4f1", //current match reult
+		// "editor.findMatchBackground": "#faf5d7", //current match reult
+		// "editor.findMatchBorder": "#f3e6bd",
+		// "editor.findMatchHighlightBackground": "#fff3f0", // other match results
+		// "editor.findMatchHighlightBorder": "#e2d1d1",
+		"editor.findMatchBackground": "#fffce9", //current match reult
+		"editor.findMatchBorder": "#e7d59a",
+		"editor.findMatchHighlightBackground": "#fffae0", // other match results
+		"editor.findMatchHighlightBorder": "#f5ebbb",
+		"editorOverviewRuler.findMatchForeground": "#948484",
+		"editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
+		"editor.findRangeHighlightBorder": "#0000ff",
+		"editorOverviewRuler.modifiedForeground": "#ff0000", // TODO: what is this?
+		"editor.hoverHighlightBackground": "#e9e4e1",
 		"editorLineNumber.foreground": "#e7d8d8",
+		"editorLineNumber.activeForeground": "#ba989c",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#414141",
 		"editorWhitespace.foreground": "#d6d5d4",

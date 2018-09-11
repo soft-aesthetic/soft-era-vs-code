@@ -124,11 +124,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<!-- <string>#EC57B4</string> -->
 				<!-- <string>#ede7c5</string> -->
 				<!-- <string>#dce3a0</string> -->
-				<string>#e8dea2</string>
+				<!-- <string>#e8dea2</string> -->
 				<!-- <string>#CABF9A</string> -->
+				<string>#EC57B4</string>
+				<!-- <string>#dd698c</string> -->
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -221,7 +222,7 @@
 			<key>name</key>
 			<string>Types</string>
 			<key>scope</key>
-			<string>entity.name.type, storage.type</string>
+			<string>entity.name.type, storage.type</string> <!-- this also styles arrow function arrow :| -->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -434,7 +435,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC57B4</string>
+				<!-- <string>#EC57B4</string> -->
+				<!-- <string>#DB90A7</string> -->
+				<string>#dd698c</string>
 			</dict>
 		</dict>
 		<dict>
