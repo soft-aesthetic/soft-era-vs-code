@@ -24,8 +24,8 @@
 		"editorOverviewRuler.findMatchForeground": "#948484",
 		"editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
 		"editor.findRangeHighlightBorder": "#0000ff",
-		"editorOverviewRuler.modifiedForeground": "#ff0000", // TODO: what is this?
 		"editor.hoverHighlightBackground": "#e9e4e1",
+		"editor.wordHighlightBackground": "#e9e4e1",
 		"editorLineNumber.foreground": "#e7d8d8",
 		"editorLineNumber.activeForeground": "#ba989c",
 		"editorCursor.foreground": "#EEAABE",
