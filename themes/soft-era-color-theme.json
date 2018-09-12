@@ -1,6 +1,27 @@
 {
 	"tokenColors": "./soft-era-test-1.tmTheme",
 	"colors": {
+		
+		// UI
+		// "foreground": "#948484", // default text color in the editor
+		"foreground": "#4a4543", // default text color in the editor
+		"sideBar.background": "#f9f5f5",
+		"sideBar.foreground": "#948484",
+		"sideBar.border": "#f9f5f5",
+		"sideBarSectionHeader.background": "#e2e1df",
+		"sideBarSectionHeader.foreground": "#948484",
+		"sideBar.dropBackground": "#ff0000",
+		"sideBarTitle.foreground": "#ba989c",
+		"statusBar.background": "#F3F3F3",
+		"statusBar.noFolderBackground": "#F3F3F3",
+		"statusBar.debuggingBackground": "#F3F3F3",
+		"statusBar.foreground": "#8F8F8F",
+		"activityBar.background": "#f3f3f3",
+		"activityBar.foreground": "#8f8f8f",
+		"activityBarBadge.background": "#eeaabe",
+		"activityBarBadge.foreground": "#ffffff",
+		
+		// SYNTAX
 		"editor.background": "#f9f5f5",
 		// "editor.foreground": "#e2d1d1",
 		// "editor.foreground": "#c8b3b3",
@@ -29,18 +50,13 @@
 		"editorLineNumber.foreground": "#e7d8d8",
 		"editorLineNumber.activeForeground": "#ba989c",
 		"editorCursor.foreground": "#EEAABE",
-		"editorCursor.background": "#414141",
-		"editorWhitespace.foreground": "#d6d5d4",
+		"editorCursor.background": "#4a4543",
+		// "editorWhitespace.foreground": "#d6d5d4",
+		"editorWhitespace.foreground": "#e2e1df",
 		"editor.lineHighlightBackground": "#fdfbfb",
 		"editor.selectionBackground": "#ECEAFA",
-		"statusBar.background": "#F3F3F3",
-		"statusBar.noFolderBackground": "#F3F3F3",
-		"statusBar.debuggingBackground": "#F3F3F3",
-		"statusBar.foreground": "#8F8F8F",
-		"activityBar.background": "#f3f3f3",
-		"activityBar.foreground": "#8f8f8f",
-		"activityBarBadge.background": "#eeaabe",
-		"activityBarBadge.foreground": "#ffffff"
+		
+		
 	},
 	"name": "soft era"
 }
