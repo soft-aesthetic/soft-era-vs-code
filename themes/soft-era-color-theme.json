@@ -5,22 +5,67 @@
 		// UI
 		// "foreground": "#948484", // default text color in the editor
 		"foreground": "#4a4543", // default text color in the editor
-		"sideBar.background": "#f9f5f5",
+		"sideBar.background": "#f3f3f3",
 		"sideBar.foreground": "#948484",
 		"sideBar.border": "#f9f5f5",
-		"sideBarSectionHeader.background": "#e2e1df",
-		"sideBarSectionHeader.foreground": "#948484",
-		"sideBar.dropBackground": "#ff0000",
+		// "sideBarSectionHeader.background": "#e2e1df",
+		"sideBarSectionHeader.background": "#e7d8d8",
+		// "sideBarSectionHeader.foreground": "#948484",
+		"sideBarSectionHeader.foreground": "#4a4543",
+		"sideBar.dropBackground": "#ffffff",
 		"sideBarTitle.foreground": "#ba989c",
-		"statusBar.background": "#F3F3F3",
-		"statusBar.noFolderBackground": "#F3F3F3",
-		"statusBar.debuggingBackground": "#F3F3F3",
+		"statusBar.background": "#f3f3f3",
+		"statusBar.noFolderBackground": "#f3f3f3",
+		"statusBar.debuggingBackground": "#f3f3f3",
 		"statusBar.foreground": "#8F8F8F",
 		"activityBar.background": "#f3f3f3",
 		"activityBar.foreground": "#8f8f8f",
 		"activityBarBadge.background": "#eeaabe",
 		"activityBarBadge.foreground": "#ffffff",
-		
+		"menu.selectionForeground": "#ff0000",
+		"menu.background": "#ff0000",
+		"menu.foreground": "#ff0000",
+		"menu.selectionBackground": "#ff0000",
+		"menu.selectionBorder": "#ff0000",
+		"menubar.selectionBackground": "#ff0000",
+		"menubar.selectionBorder": "#ff0000",
+		"menubar.selectionForeground": "#ff0000",
+		// "breadcrumb.background": "#ff0000",
+		"breadcrumb.foreground": "#948484",
+		"breadcrumb.activeSelectionForeground": "#4a4543",
+		"breadcrumb.focusForeground": "#db90a7",
+		"button.foreground": "#ffffff",
+		"button.background": "#b4addf",
+		"button.hoverBackground": "#958ac5",
+		"welcomePage.buttonBackground": "#b4addf",
+		"welcomePage.buttonHoverBackground": "#958ac5",
+		"titleBar.activeForeground": "#4a4543",
+		"titleBar.activeBackground": "#f3f3f3",
+		"titleBar.inactiveBackground": "#f3f3f3",
+		"titleBar.inactiveForeground": "#9c9c9c",
+		"badge.background": "#eeaabe",
+		"badge.foreground": "#ffffff",
+		"editorSuggestWidget.foreground": "#948484",
+		"editorSuggestWidget.background": "#ffffff",
+		"editorSuggestWidget.border": "#e7d8d8",
+		"editorSuggestWidget.highlightForeground": "#dd698c",
+		"editorSuggestWidget.selectedBackground": "#ECEAFA",
+		// "editorSuggestWidget.selectedBackground": "#cfc9f4",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.activeSelectionBackground": "#b4addf",
+		"list.dropBackground": "#ffffff",
+		"list.highlightForeground": "#dd698c",
+		"list.hoverBackground": "#ECEAFA",
+		"list.focusBackground": "#cfc9f4",
+		"list.focusForeground": "#ffffff",
+		"list.hoverForeground": "#4a4543",
+		"list.inactiveFocusBackground": "#e5e3ec",
+		"list.inactiveSelectionBackground": "#e5e3f1",
+		"list.inactiveSelectionForeground": "#000000",
+		"list.errorForeground": "#db90a7",
+		"list.invalidItemForeground": "#e4846f", // soft-orange
+		// "list.warningForeground": "#e7d59a", // is this used in search?
+		"list.warningForeground": "#CABF9A", // soft-yellow-darker
 		// SYNTAX
 		"editor.background": "#f9f5f5",
 		// "editor.foreground": "#e2d1d1",
@@ -41,7 +86,8 @@
 		"editor.findMatchBackground": "#fffce9", //current match reult
 		"editor.findMatchBorder": "#e7d59a",
 		"editor.findMatchHighlightBackground": "#fffae0", // other match results
-		"editor.findMatchHighlightBorder": "#f5ebbb",
+		// "editor.findMatchHighlightBorder": "#f5ebbb",
+		"editor.findMatchHighlightBorder": "#f1e48f",
 		"editorOverviewRuler.findMatchForeground": "#948484",
 		"editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
 		"editor.findRangeHighlightBorder": "#0000ff",
@@ -55,8 +101,23 @@
 		"editorWhitespace.foreground": "#e2e1df",
 		"editor.lineHighlightBackground": "#fdfbfb",
 		"editor.selectionBackground": "#ECEAFA",
-		
-		
+		// "editorBracketMatch.background": "#ECEAFA",
+		// "editorBracketMatch.border": "#b4addf"
+		// "editorBracketMatch.background": "#e4bcbf",
+		"editorBracketMatch.background": "#f6fffd",
+		"editorBracketMatch.border": "#98C4BA",
+		// "editorError.foreground": "#e4846f", // soft-orange
+		// "editorError.foreground": "#eeaabe", // soft-salmon
+		// "editorError.foreground": "#db90a7", // soft-red-faded
+		"editorError.foreground": "#DD698C", // soft-red
+		"editorInfo.foreground": "#82B4E3",
+		"editorHint.foreground": "#CABF9A", // soft-yellow-darker
+		// "editorHint.foreground": "#ede7c5", // soft-yellow
+		// "editorHint.foreground": "#f1e48f",
+		"errorForeground": "#4a4543",
+		"inputValidation.errorBackground": "#DD698C",
+		"inputValidation.infoBackground": "#82B4E3",
+		"inputValidation.warningBackground": "#e7d59a"
 	},
 	"name": "soft era"
 }
