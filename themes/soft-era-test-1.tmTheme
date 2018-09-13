@@ -646,9 +646,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DD698C</string>
+				<string>#EEAABE</string>
 				<key>foreground</key>
-				<string>#F7F7F7</string>
+				<string>#DD698C</string>
 			</dict>
 		</dict>
 	</array>
