@@ -1,24 +1,25 @@
 {
 	"tokenColors": "./soft-era-test-1.tmTheme",
 	"colors": {
-		
-		// UI
 		// "foreground": "#948484", // default text color in the editor
 		"foreground": "#4a4543", // default text color in the editor
-		"sideBar.background": "#f3f3f3",
-		"sideBar.foreground": "#948484",
-		"sideBar.border": "#f9f5f5",
+		// "sideBar.background": "#e3e6ed",
+		"sideBar.background": "#e3e6ed",
+		// "sideBar.foreground": "#948484",
+		"sideBar.foreground": "#666d7d",
+		// "sideBar.border": "#f9f5f5",
+		"sideBar.border": "#e3e6ed",
 		// "sideBarSectionHeader.background": "#e2e1df",
 		"sideBarSectionHeader.background": "#e7d8d8",
 		// "sideBarSectionHeader.foreground": "#948484",
 		"sideBarSectionHeader.foreground": "#4a4543",
 		"sideBar.dropBackground": "#ffffff",
 		"sideBarTitle.foreground": "#ba989c",
-		"statusBar.background": "#f3f3f3",
-		"statusBar.noFolderBackground": "#f3f3f3",
-		"statusBar.debuggingBackground": "#f3f3f3",
+		"statusBar.background": "#e3e6ed",
+		"statusBar.noFolderBackground": "#e3e6ed",
+		"statusBar.debuggingBackground": "#e3e6ed",
 		"statusBar.foreground": "#8F8F8F",
-		"activityBar.background": "#f3f3f3",
+		"activityBar.background": "#e3e6ed",
 		"activityBar.foreground": "#8f8f8f",
 		"activityBarBadge.background": "#eeaabe",
 		"activityBarBadge.foreground": "#ffffff",
@@ -40,8 +41,8 @@
 		"welcomePage.buttonBackground": "#b4addf",
 		"welcomePage.buttonHoverBackground": "#958ac5",
 		"titleBar.activeForeground": "#4a4543",
-		"titleBar.activeBackground": "#f3f3f3",
-		"titleBar.inactiveBackground": "#f3f3f3",
+		"titleBar.activeBackground": "#e3e6ed",
+		"titleBar.inactiveBackground": "#e3e6ed",
 		"titleBar.inactiveForeground": "#9c9c9c",
 		"badge.background": "#eeaabe",
 		"badge.foreground": "#ffffff",
@@ -59,14 +60,24 @@
 		"list.focusBackground": "#cfc9f4",
 		"list.focusForeground": "#ffffff",
 		"list.hoverForeground": "#4a4543",
-		"list.inactiveFocusBackground": "#e5e3ec",
-		"list.inactiveSelectionBackground": "#e5e3f1",
+		// "list.inactiveFocusBackground": "#e5e3ec",
+		"list.inactiveFocusBackground": "#d6dae4",
+		"list.inactiveSelectionBackground": "#d6dae4",
 		"list.inactiveSelectionForeground": "#000000",
 		"list.errorForeground": "#db90a7",
 		"list.invalidItemForeground": "#e4846f", // soft-orange
 		// "list.warningForeground": "#e7d59a", // is this used in search?
 		"list.warningForeground": "#CABF9A", // soft-yellow-darker
-
+		"tab.activeBorderTop": "#b4addf",
+		"tab.unfocusedActiveBorderTop": "#f9f5f5",
+		"tab.inactiveBackground": "#e3e6ed",
+		// "tab.inactiveForeground": "#948484",
+		"tab.inactiveForeground": "#666d7d",
+		"editorGroupHeader.tabsBackground": "#e3e6ed",
+		"tab.activeBorder": "#f9f5f5",
+		"tab.border": "#e3e6ed",
+		
+		////////////////////////////////////////////////////////
 		// SYNTAX
 		"editor.background": "#f9f5f5",
 		// "editor.foreground": "#e2d1d1",
