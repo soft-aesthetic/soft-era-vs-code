@@ -66,6 +66,7 @@
 		"list.invalidItemForeground": "#e4846f", // soft-orange
 		// "list.warningForeground": "#e7d59a", // is this used in search?
 		"list.warningForeground": "#CABF9A", // soft-yellow-darker
+
 		// SYNTAX
 		"editor.background": "#f9f5f5",
 		// "editor.foreground": "#e2d1d1",
