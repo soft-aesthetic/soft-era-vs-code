@@ -7,7 +7,8 @@
 		"sideBar.foreground": "#666d7d",
 		"sideBar.border": "#e3e6ed",
 		// "sideBarSectionHeader.background": "#e7d8d8",
-		"sideBarSectionHeader.background": "#d1d5df",
+		// "sideBarSectionHeader.background": "#d1d5df",
+		"sideBarSectionHeader.background": "#d9dce4",
 		"sideBarSectionHeader.foreground": "#666d7d",
 		"sideBar.dropBackground": "#ffffff",
 		"sideBarTitle.foreground": "#666d7d",
@@ -20,8 +21,10 @@
 		"list.focusForeground": "#ffffff",
 		"list.hoverForeground": "#4a4543",
 		// "list.inactiveFocusBackground": "#e5e3ec",
-		"list.inactiveFocusBackground": "#e2e5ee",
-		"list.inactiveSelectionBackground": "#d6dae4",
+		// "list.inactiveFocusBackground": "#ebedf3",
+		// "list.inactiveFocusBackground": "#eceff3",
+		"list.inactiveFocusBackground": "#ebedf3",
+		"list.inactiveSelectionBackground": "#ebedf3",
 		"list.inactiveSelectionForeground": "#666d7d",
 		"list.errorForeground": "#DD698C",
 		"list.invalidItemForeground": "#e4846f", // soft-orange
@@ -72,7 +75,7 @@
 		"editorGroupHeader.tabsBackground": "#e3e6ed",
 		"tab.activeBorder": "#f9f5f5",
 		"tab.border": "#e3e6ed",
-		
+ 		
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
