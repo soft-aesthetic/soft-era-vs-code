@@ -222,7 +222,7 @@
 			<key>name</key>
 			<string>Types</string>
 			<key>scope</key>
-			<string>entity.name.type, storage.type</string> <!-- this also styles arrow function arrow :| -->
+			<string>entity.name.type, storage.type</string> <!--  storage.type styles arrow function arrow, storage.type.function seems to override below i hope -->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -238,7 +238,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method, storage.function</string>
+			<string>entity.name.function, meta.require, support.function.any-method, storage.function, storage.type.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -646,9 +646,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DD698C</string>
+				<string>#EEAABE</string>
 				<key>foreground</key>
-				<string>#F7F7F7</string>
+				<string>#DD698C</string>
 			</dict>
 		</dict>
 	</array>
