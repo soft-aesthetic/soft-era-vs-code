@@ -5,12 +5,13 @@
 #b4addf
 #cfc9f4 / #cfc9f499 / #cfc9f466 / #c8bfff34 (selection background)
 #eceafa
-=	#ffffff
+#ffffff
 #fdfbfb
 #ebedf3
 #e3e6ed
 #9c9c9c
 #666d7d
+#cfcccc
 #4a4543
 ? #252535
 #948484
@@ -49,6 +50,7 @@
 #f6fffd
 #82b4e3
 ? #01a0e4
+? #0000ff
 #ec57b4
 #ce9ae8
 #Cb8dd7
@@ -73,6 +75,13 @@ cute pairs:
 {
 	"tokenColors": "./soft-era-test-1.tmTheme",
 	"colors": {
+		////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////
+		//
+		// UI
+		//
 		"foreground": "#666d7d", // default text color in the editor
 		"focusBorder": "#b4addf",
 		"sideBar.background": "#e3e6ed",
@@ -89,8 +98,8 @@ cute pairs:
 		// "list.highlightForeground": "#4a4543",
 		"list.hoverBackground": "#eceafa",
 		"list.focusBackground": "#cfc9f4",
-		"list.focusForeground": "#4a4543",
-		// "list.focusForeground": "#ffffff",
+		// "list.focusForeground": "#4a4543",
+		"list.focusForeground": "#ffffff",
 		"list.hoverForeground": "#4a4543",
 		"list.inactiveFocusBackground": "#ebedf3",
 		"list.inactiveSelectionBackground": "#ebedf3",
@@ -148,6 +157,17 @@ cute pairs:
 		"tab.border": "#e3e6ed",
 		"activityBar.dropBackground": "#fdfbfb",
 
+		// "notificationCenter.border": "#fdfbfb",
+		// "notificationToast.border": "#ffffff",
+		"notificationCenter.border": "#f6fffd",
+		"notificationToast.border": "#f6fffd",
+		"notificationCenterHeader.background": "#f6fffd",
+		"notificationCenterHeader.foreground": "#4a4543",
+		"notificationLink.foreground": "#0000ff",
+		"notifications.background": "#f6fffd",
+		"notifications.border": "#ebedf3",
+		"notifications.foreground": "#4a4543",
+
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
@@ -182,7 +202,12 @@ cute pairs:
 		"editorLineNumber.activeForeground": "#b4addf",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#4a4543",
-		"editorWhitespace.foreground": "#e2e1df",
+		// "editorWhitespace.foreground": "#e2e1df",
+		"editorWhitespace.foreground": "#e2e1dfdd",
+		// "editorWhitespace.foreground": "#e7d8d855",
+		"editorIndentGuide.background": "#e7d8d855",
+		// "editorIndentGuide.activeBackground": "#e7d8d8",
+		"editorIndentGuide.activeBackground": "#e2e1df",
 		"editor.lineHighlightBackground": "#fdfbfb",
 		"editor.selectionBackground": "#eceafa",
 		"editor.selectionForeground": "#958ac5",
@@ -198,6 +223,8 @@ cute pairs:
 		"inputValidation.errorBackground": "#DD698C",
 		"inputValidation.infoBackground": "#82B4E3",
 		"inputValidation.warningBackground": "#e7d59a",
+		
+		// TODO: how to style TODOs with this extension?
 
 		///////////////////////////////////
 		///////////////////////////////////
@@ -205,7 +232,7 @@ cute pairs:
 		// 
 		// Terminal
 		//
-		"terminal.border": "#4a454399",
+		"terminal.border": "#cfcccc",
 		"terminal.background": "#F9F5F5",
 		"terminal.foreground": "#ba989c",
 		"terminal.selectionBackground": "#c8bfff34",
