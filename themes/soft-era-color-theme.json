@@ -78,9 +78,10 @@ cute pairs:
 		//
 		"foreground": "#666d7d", // default text color in the editor
 		"focusBorder": "#b4addf",
-		"scrollbar.shadow": "#94848466",
 		// "scrollbar.shadow": "#f9f5f4",
+		"scrollbar.shadow": "#94848466",
 		"widget.shadow": "#94848466",
+
 		"sideBar.background": "#e3e6ed",
 		"sideBar.foreground": "#666d7d",
 		"sideBar.border": "#e3e6ed",
@@ -139,6 +140,12 @@ cute pairs:
 		
 		"badge.background": "#eeaabe",
 		"badge.foreground": "#ffffff",
+
+		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
+		"editorWidget.border": "#cfc9f499",
+		// "editorWidget.resizeBorder": "#ff0000",
+		// "editorHoverWidget.background": "#ff0000",
+		// "editorHoverWidget.border": "#ff0000",
 		
 		"editorSuggestWidget.foreground": "#948484",
 		"editorSuggestWidget.background": "#ffffff",
