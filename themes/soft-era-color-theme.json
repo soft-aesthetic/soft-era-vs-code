@@ -84,6 +84,9 @@ cute pairs:
 		//
 		"foreground": "#666d7d", // default text color in the editor
 		"focusBorder": "#b4addf",
+		"scrollbar.shadow": "#94848466",
+		// "scrollbar.shadow": "#f9f5f4",
+		"widget.shadow": "#94848466",
 		"sideBar.background": "#e3e6ed",
 		"sideBar.foreground": "#666d7d",
 		"sideBar.border": "#e3e6ed",
@@ -167,6 +170,8 @@ cute pairs:
 		"notifications.background": "#f6fffd",
 		"notifications.border": "#ebedf3",
 		"notifications.foreground": "#4a4543",
+
+
 
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
