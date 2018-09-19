@@ -32,6 +32,7 @@
 #eeaabe
 #db90a7
 #dd698c
+#dd698c
 #e4846f
 #cabf9a
 ? #d3a656 
@@ -79,8 +80,8 @@ cute pairs:
 		"foreground": "#666d7d", // default text color in the editor
 		"focusBorder": "#b4addf",
 		// "scrollbar.shadow": "#f9f5f4",
-		"scrollbar.shadow": "#94848466",
-		"widget.shadow": "#94848466",
+		"scrollbar.shadow": "#94848444",
+		"widget.shadow": "#94848444",
 
 		"sideBar.background": "#e3e6ed",
 		"sideBar.foreground": "#666d7d",
@@ -141,7 +142,7 @@ cute pairs:
 		"badge.background": "#eeaabe",
 		"badge.foreground": "#ffffff",
 
-		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
+		"editorWidget.background": "#ffffff", // find/replace, hover info tooltips
 		"editorWidget.border": "#cfc9f499",
 		// "editorWidget.resizeBorder": "#ff0000",
 		// "editorHoverWidget.background": "#ff0000",
@@ -179,11 +180,43 @@ cute pairs:
 		////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////
 		//
-		// SYNTAX
+		//
+		// Editor Windows & Syntax
+		//
 		//
 		"editor.background": "#f9f5f5",
 		"editor.foreground": "#ba989c",
+		
+		"editorLineNumber.foreground": "#e7d8d8cc",
+		"editorLineNumber.activeForeground": "#b4addf",
+		"editorCursor.foreground": "#EEAABE",
+		"editorCursor.background": "#4a4543",
+
+		"editor.lineHighlightBackground": "#fdfbfb",
+		"editor.selectionBackground": "#eceafa",
+		"editor.selectionForeground": "#958ac5",
+		"editor.inactiveSelectionBackground": "#e2e1dfaa",
+		"editorBracketMatch.background": "#4a4543",
+		"editorBracketMatch.border": "#4a4543",
+		"editorError.foreground": "#dd698ccc", // soft-red
+		"editorInfo.foreground": "#82B4E3",
+		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
+		"editorWarning.foreground": "#e4846f",
+
+		"editorWhitespace.foreground": "#e2e1dfdd",
+		"editorIndentGuide.background": "#e7d8d855",
+		"editorIndentGuide.activeBackground": "#e2e1df",
+
+		// TODO: establish new "error" red?
+		"errorForeground": "#dd698c",
+		"inputValidation.errorBackground": "#dd698c",
+		"inputValidation.infoBackground": "#82B4E3",
+		"inputValidation.warningBackground": "#e7d59a",
+
 		"editorGroup.dropBackground": "#cfc9f466",
+
+		"editorCodeLens.foreground": "#e7d8d8",
+
 		"gitDecoration.addedResourceForeground": "#98c4ba",
 		"gitDecoration.conflictingResourceForeground": "#e4846f",
 		"gitDecoration.deletedResourceForeground": "#dd6969",
@@ -191,6 +224,8 @@ cute pairs:
 		"gitDecoration.submoduleResourceForeground": "#25b7b8",
 		"gitDecoration.untrackedResourceForeground": "#db90a7",
 		"gitDecoration.modifiedResourceForeground": "#d3a656",
+		// TODO: tone down gutter colors?
+
 		"editor.findMatchBackground": "#fffce9",
 		"editor.findMatchBorder": "#e7d59a",
 		"editor.findMatchHighlightBackground": "#fffae0", // other match results
@@ -199,38 +234,15 @@ cute pairs:
 		// "editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
 		"editor.findRangeHighlightBorder": "#f0e2c3cc",
 		"editor.hoverHighlightBackground": "#ffffff88",
-		"editorCodeLens.foreground": "#e7d8d8",
 		"editor.wordHighlightBorder": "#f0e2c3cc",
 		"editor.wordHighlightBackground": "#fffaf5b2",
 		"editor.selectionHighlightBackground": "#feffbf3d",
 		"editor.selectionHighlightBorder": "#f1e48fd7",
-		"editorLineNumber.foreground": "#e7d8d8cc",
-		"editorLineNumber.activeForeground": "#b4addf",
-		"editorCursor.foreground": "#EEAABE",
-		"editorCursor.background": "#4a4543",
-		// "editorWhitespace.foreground": "#e2e1df",
-		"editorWhitespace.foreground": "#e2e1dfdd",
-		// "editorWhitespace.foreground": "#e7d8d855",
-		"editorIndentGuide.background": "#e7d8d855",
-		// "editorIndentGuide.activeBackground": "#e7d8d8",
-		"editorIndentGuide.activeBackground": "#e2e1df",
-		"editor.lineHighlightBackground": "#fdfbfb",
-		"editor.selectionBackground": "#eceafa",
-		"editor.selectionForeground": "#958ac5",
-		"editor.inactiveSelectionBackground": "#e2e1dfaa",
-		"editorBracketMatch.background": "#4a4543",
-		"editorBracketMatch.border": "#4a4543",
-		"editorError.foreground": "#DD698Ccc", // soft-red
-		"editorInfo.foreground": "#82B4E3",
-		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
-		"editorWarning.foreground": "#e4846f",
-	
-		"errorForeground": "#4a4543",
-		"inputValidation.errorBackground": "#DD698C",
-		"inputValidation.infoBackground": "#82B4E3",
-		"inputValidation.warningBackground": "#e7d59a",
+
 		
-		// TODO: how to style TODOs with this extension?
+		
+		
+		// TODO: how to style TODOs with this highlight extension?
 
 		///////////////////////////////////
 		///////////////////////////////////

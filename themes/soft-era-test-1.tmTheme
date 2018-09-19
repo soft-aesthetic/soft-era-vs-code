@@ -291,6 +291,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
 			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag</string>
