@@ -217,7 +217,7 @@ cute pairs:
 		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
 		"editorWarning.foreground": "#e4846f",
 
-		"editorWhitespace.foreground": "#bbbab9aa",
+		"editorWhitespace.foreground": "#bbbab97f",
 		// "editorWhitespace.foreground": "#bbbab9",
 		// "editorWhitespace.foreground": "#e2e1dfdd",
 		"editorIndentGuide.background": "#e7d8d855",
