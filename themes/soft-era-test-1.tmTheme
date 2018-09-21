@@ -39,7 +39,7 @@
 				<key>caret</key>
 				<string>#eeaabe</string>
 				<key>foreground</key>
-				<string>#4a4543</string>
+				<string>#  </string>
 				<key>invisibles</key>
 				<string>#d6d5d4</string>
 				<key>lineHighlight</key>
@@ -294,11 +294,14 @@
 			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag</string>
+			<string>entity.name.tag, punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#db90a7</string>
+				<!-- <string>#ffb4b8</string> -->
+				<string>#eeaabe</string>
+				<!-- <string>#db90a7</string> -->
+				<!-- <string>#b4addf</string> -->
 			</dict>
 		</dict>
 		<dict>
