@@ -23,15 +23,15 @@
 #e2d1d1
 #e7d8d8 / #e7d8d899
 #E9E4E1 / #E9E4E18A (optional element highlight background)
-#e2e1df (whitespace characters background)
+#e2e1df (whitespace characters background) / #e2e1dfdd
+#e2e1df 
 #f9f5f4 (!! main background)
 ? #ffe8e3
 ? #fff3f0
 #e4bcbf
-#ffb4b8
+#ffb4b8 (in terminal)
 #eeaabe
-#db90a7
-#dd698c
+#db90a7 (arguments)
 #dd698c
 #e4846f
 #cabf9a
@@ -81,7 +81,7 @@ cute pairs:
 		"focusBorder": "#b4addf",
 		// "scrollbar.shadow": "#f9f5f4",
 		"scrollbar.shadow": "#94848444",
-		"widget.shadow": "#94848444",
+		"widget.shadow": "#94848422",
 
 		// "sideBar.background": "#fbfbfb",
 		"sideBar.background": "#e3e6ed",
@@ -116,25 +116,25 @@ cute pairs:
 		"activityBar.background": "#e3e6ed",
 		"activityBar.foreground": "#666d7d",
 		"activityBarBadge.background": "#eeaabe",
-		"activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.foreground": "#fbfbfb",
 
 		// TODO: verify that "menu.*" items refer to windows file/etc buttongs
 		"menu.background": "#e3e6ed",
 		"menu.foreground": "#666d7d",
-		"menu.selectionForeground": "#ffffff",
+		"menu.selectionForeground": "#fbfbfb",
 		"menu.selectionBackground": "#b4addf",
 		"menu.selectionBorder": "#b4addf",
 		"menubar.selectionBorder": "#b4addf",
 		"menubar.selectionBackground": "#b4addf",
-		"menubar.selectionForeground": "#ffffff",
+		"menubar.selectionForeground": "#fbfbfb",
 
-		// "breadcrumb.background": "#ff0000",
+		"breadcrumb.background": "#f9f5f4",
 		"breadcrumb.foreground": "#948484",
 		"breadcrumb.activeSelectionForeground": "#4a4543",
 		"breadcrumb.focusForeground": "#db90a7",
-		"breadcrumbPicker.background": "#ff0000",		
+		"breadcrumbPicker.background": "#fbfbfb",		
 		
-		"button.foreground": "#ffffff",
+		"button.foreground": "#fbfbfb",
 		"button.background": "#25B7B8",
 		"button.hoverBackground": "#3b9191",
 		"welcomePage.buttonBackground": "#b4addf",
@@ -146,26 +146,33 @@ cute pairs:
 		"titleBar.inactiveForeground": "#9c9c9c",
 		
 		"badge.background": "#eeaabe",
-		"badge.foreground": "#ffffff",
+		"badge.foreground": "#fbfbfb",
 
-		"editorWidget.background": "#ffffff", // find/replace, hover info tooltips
+		"editorGroupHeader.tabsBackground": "#e3e6ed",
+		
+		"tab.activeBorderTop": "#b4addf",
+		"tab.unfocusedActiveBorderTop": "#f9f5f5",
+		"tab.inactiveBackground": "#e3e6ed",
+		"tab.inactiveForeground": "#666d7d",
+		"tab.activeBorder": "#f9f5f5",
+		"tab.border": "#e3e6ed",
+
+		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
 		"editorWidget.border": "#cfc9f499",
-		// "editorWidget.resizeBorder": "#ff0000",
-		// "editorHoverWidget.background": "#ff0000",
-		// "editorHoverWidget.border": "#ff0000",
+		"editorWidget.resizeBorder": "#cfcccc",
+		// "editorHoverWidget.background": "#fbfbfb",
+		// "editorHoverWidget.border": "#eceafa",
 		
 		"editorSuggestWidget.foreground": "#948484",
 		"editorSuggestWidget.background": "#ffffff",
 		"editorSuggestWidget.border": "#cfc9f499",
 		"editorSuggestWidget.highlightForeground": "#dd698c",
 		"editorSuggestWidget.selectedBackground": "#eceafa",
-		"tab.activeBorderTop": "#b4addf",
-		"tab.unfocusedActiveBorderTop": "#f9f5f5",
-		"tab.inactiveBackground": "#e3e6ed",
-		"tab.inactiveForeground": "#666d7d",
-		"editorGroupHeader.tabsBackground": "#e3e6ed",
-		"tab.activeBorder": "#f9f5f5",
-		"tab.border": "#e3e6ed",
+		// "debugExceptionWidget.background": "#ff0000",
+		// "debugExceptionWidget.border": "#ff0000",
+		
+		
+
 		"activityBar.dropBackground": "#fdfbfb",
 
 		// "notificationCenter.border": "#fdfbfb",
@@ -192,6 +199,7 @@ cute pairs:
 		//
 		"editor.background": "#f9f5f5",
 		"editor.foreground": "#ba989c",
+		// "editor.foreground": "#b4addf",
 		
 		"editorLineNumber.foreground": "#e7d8d8cc",
 		"editorLineNumber.activeForeground": "#b4addf",
@@ -209,7 +217,9 @@ cute pairs:
 		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
 		"editorWarning.foreground": "#e4846f",
 
-		"editorWhitespace.foreground": "#e2e1dfdd",
+		"editorWhitespace.foreground": "#bbbab9aa",
+		// "editorWhitespace.foreground": "#bbbab9",
+		// "editorWhitespace.foreground": "#e2e1dfdd",
 		"editorIndentGuide.background": "#e7d8d855",
 		"editorIndentGuide.activeBackground": "#e2e1df",
 
@@ -239,7 +249,8 @@ cute pairs:
 		"editorOverviewRuler.findMatchForeground": "#948484",
 		// "editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
 		"editor.findRangeHighlightBorder": "#f0e2c3cc",
-		"editor.hoverHighlightBackground": "#ffffff88",
+		// "editor.hoverHighlightBackground": "#ffffffaa",
+		"editor.hoverHighlightBackground": "#ffffffff",
 		"editor.wordHighlightBorder": "#f0e2c3cc",
 		"editor.wordHighlightBackground": "#fffaf5b2",
 		"editor.selectionHighlightBackground": "#feffbf3d",

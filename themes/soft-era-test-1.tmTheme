@@ -86,6 +86,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Punctuation: template expressions (like ${})</string>
+			<key>scope</key>
+			<!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->
+			<string>punctuation.definition.template-expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#e2e1df</string> -->
+				<!-- <string>#d3d2d1</string> -->
+				<string>#c9c8c7</string>
+				<!-- <string>#bbbab9</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Delimiters</string>
 			<key>scope</key>
 			<string>none</string>
@@ -176,15 +191,30 @@
 				<string>#958ac5</string>
 			</dict>
 		</dict>
+			<!-- meta.arrow is default of all -->
+			<!-- meta.function is default of all block -->
 		<dict>
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method, storage.function, storage.type.function</string>
+			<string>entity.name.function, support.function.any-method, storage.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#25b7b8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>'function' word when defining</string>
+			<key>scope</key>
+			<string>storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#25b7b8</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
