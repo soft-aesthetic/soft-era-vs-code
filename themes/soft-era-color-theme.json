@@ -83,6 +83,7 @@ cute pairs:
 		"scrollbar.shadow": "#94848444",
 		"widget.shadow": "#94848422",
 
+		// TODO: more purple-toned sidebar background?
 		// "sideBar.background": "#fbfbfb",
 		"sideBar.background": "#e3e6ed",
 		"sideBar.foreground": "#666d7d",
@@ -128,12 +129,6 @@ cute pairs:
 		"menubar.selectionBackground": "#b4addf",
 		"menubar.selectionForeground": "#fbfbfb",
 
-		"breadcrumb.background": "#f9f5f4",
-		"breadcrumb.foreground": "#948484",
-		"breadcrumb.activeSelectionForeground": "#4a4543",
-		"breadcrumb.focusForeground": "#db90a7",
-		"breadcrumbPicker.background": "#fbfbfb",		
-		
 		"button.foreground": "#fbfbfb",
 		"button.background": "#25B7B8",
 		"button.hoverBackground": "#3b9191",
@@ -150,12 +145,32 @@ cute pairs:
 
 		"editorGroupHeader.tabsBackground": "#e3e6ed",
 		
-		"tab.activeBorderTop": "#b4addf",
-		"tab.unfocusedActiveBorderTop": "#f9f5f5",
-		"tab.inactiveBackground": "#e3e6ed",
-		"tab.inactiveForeground": "#666d7d",
-		"tab.activeBorder": "#f9f5f5",
+		"breadcrumb.background": "#f9f5f4",
+		// "breadcrumb.foreground": "#c9c8c7",
+		"breadcrumb.foreground": "#b4b8d0",
+		"breadcrumb.activeSelectionForeground": "#4a4543",
+		"breadcrumb.focusForeground": "#db90a7",
+		"breadcrumbPicker.background": "#fbfbfb",
+
 		"tab.border": "#e3e6ed",
+		"tab.activeBorder": "#f9f5f4",
+		"tab.activeBorderTop": "#b4addf",
+		// "tab.activeBorderTop": "#f9f5f4",
+		"tab.activeBackground": "#f9f5f4",
+		// "tab.activeForeground": "#4a4543",
+		"tab.activeForeground": "#958ac5",
+		"tab.inactiveBackground": "#e3e6ed",
+		"tab.inactiveForeground": "#666d7dbb",
+		// "tab.hoverBackground": "#ff0000",	
+		// "tab.hoverBorder": "#ff0000",
+		// "tab.unfocusedActiveBorder": "#ff0000",
+		"tab.unfocusedActiveBorderTop": "#ece9e8",
+		"tab.unfocusedActiveForeground": "#4a454366",
+		"tab.unfocusedInactiveForeground": "#666d7d77",
+		// "tab.unfocusedActiveBorder": "#f1efee",
+		// "tab.unfocusedHoverBackground": "#ff0000",
+		// "tab.unfocusedHoverBorder": "#ff0000",
+		// "tab.unfocusedInactiveForeground": "#ff0000",
 
 		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
 		"editorWidget.border": "#cfc9f499",
