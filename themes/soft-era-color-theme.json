@@ -83,6 +83,7 @@ cute pairs:
 		"scrollbar.shadow": "#94848444",
 		"widget.shadow": "#94848422",
 
+		// TODO: more purple-toned sidebar background?
 		// "sideBar.background": "#fbfbfb",
 		"sideBar.background": "#e3e6ed",
 		"sideBar.foreground": "#666d7d",
@@ -128,12 +129,6 @@ cute pairs:
 		"menubar.selectionBackground": "#b4addf",
 		"menubar.selectionForeground": "#fbfbfb",
 
-		"breadcrumb.background": "#f9f5f4",
-		"breadcrumb.foreground": "#948484",
-		"breadcrumb.activeSelectionForeground": "#4a4543",
-		"breadcrumb.focusForeground": "#db90a7",
-		"breadcrumbPicker.background": "#fbfbfb",		
-		
 		"button.foreground": "#fbfbfb",
 		"button.background": "#25B7B8",
 		"button.hoverBackground": "#3b9191",
@@ -147,15 +142,43 @@ cute pairs:
 		
 		"badge.background": "#eeaabe",
 		"badge.foreground": "#fbfbfb",
-
-		"editorGroupHeader.tabsBackground": "#e3e6ed",
 		
+		
+		"breadcrumb.background": "#f9f5f4",
+		// "breadcrumb.foreground": "#c9c8c7",
+		"breadcrumb.foreground": "#b4b8d0",
+		"breadcrumb.activeSelectionForeground": "#4a4543",
+		"breadcrumb.focusForeground": "#db90a7",
+		"breadcrumbPicker.background": "#fbfbfb",
+		
+		// "editorGroupHeader.tabsBackground": "#e3e6ed",
+		// "editorGroupHeader.tabsBackground": "#f9f5f488",
+		// "editorGroupHeader.tabsBackground": "#ECECEC",
+		"editorGroupHeader.tabsBackground": "#ECECF0",
+		// "tab.border": "#e3e6ed",
+		"tab.border": "#ECECEC",
+		"tab.activeBorder": "#f9f5f4",
 		"tab.activeBorderTop": "#b4addf",
-		"tab.unfocusedActiveBorderTop": "#f9f5f5",
-		"tab.inactiveBackground": "#e3e6ed",
-		"tab.inactiveForeground": "#666d7d",
-		"tab.activeBorder": "#f9f5f5",
-		"tab.border": "#e3e6ed",
+		// "tab.activeBorderTop": "#f9f5f4",
+		"tab.activeBackground": "#f9f5f4",
+		// "tab.activeForeground": "#4a4543",
+		"tab.activeForeground": "#958ac5",
+		// "tab.inactiveBackground": "#e3e6ed",
+		// "tab.inactiveBackground": "#f9f5f488",
+		// "tab.inactiveBackground": "#ECECEC",
+		// "tab.inactiveBackground": "#f9f5f466",
+		"tab.inactiveBackground": "#ECECF0",
+		"tab.inactiveForeground": "#666d7dbb",
+		// "tab.hoverBackground": "#ff0000",	
+		// "tab.hoverBorder": "#ff0000",
+		// "tab.unfocusedActiveBorder": "#ff0000",
+		"tab.unfocusedActiveBorderTop": "#ece9e8",
+		"tab.unfocusedActiveForeground": "#4a454366",
+		"tab.unfocusedInactiveForeground": "#666d7d77",
+		// "tab.unfocusedActiveBorder": "#f1efee",
+		// "tab.unfocusedHoverBackground": "#ff0000",
+		// "tab.unfocusedHoverBorder": "#ff0000",
+		// "tab.unfocusedInactiveForeground": "#ff0000",
 
 		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
 		"editorWidget.border": "#cfc9f499",
@@ -202,6 +225,7 @@ cute pairs:
 		// "editor.foreground": "#b4addf",
 		
 		"editorLineNumber.foreground": "#e7d8d8cc",
+		// "editorLineNumber.foreground": "#e2e1df",
 		"editorLineNumber.activeForeground": "#b4addf",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#4a4543",
@@ -217,7 +241,8 @@ cute pairs:
 		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
 		"editorWarning.foreground": "#e4846f",
 
-		"editorWhitespace.foreground": "#bbbab97f",
+		// "editorWhitespace.foreground": "#bbbab97f", // this was a good gray
+		"editorWhitespace.foreground": "#e7d8d899", // preferable to have all "non-special characters" be a variant of background & foreground colors?
 		// "editorWhitespace.foreground": "#bbbab9",
 		// "editorWhitespace.foreground": "#e2e1dfdd",
 		"editorIndentGuide.background": "#e7d8d855",
@@ -265,10 +290,19 @@ cute pairs:
 		///////////////////////////////////
 		///////////////////////////////////
 		// 
-		// Terminal
+		// Panels and Terminal
 		//
-		"terminal.border": "#cfcccc",
-		"terminal.background": "#F9F5F5",
+		// #f9f5f4 #e3e6ed44 #e3e6ed66 #e3e6ed99
+		"panel.background": "#f3f1f3",
+		"panel.border": "#f3f1f3",
+		"panel.dropBackground": "#cfc9f466",
+		"panelTitle.activeBorder": "#b4addf",
+		"panelTitle.activeForeground": "#958ac5",
+		"panelTitle.inactiveForeground": "#666d7dbb",
+
+		"terminal.border": "#e2e1dfdd",
+		// "terminal.background": "#F9F5F5",
+		"terminal.background": "#f3f1f3",
 		"terminal.foreground": "#ba989c",
 		"terminal.selectionBackground": "#c8bfff34",
 		"terminalCursor.background": "#4a4543",
@@ -279,7 +313,8 @@ cute pairs:
 		"terminal.ansiGreen": "#98c4ba",
 		"terminal.ansiMagenta": "#eeaabe",
 		"terminal.ansiRed": "#ea8297",
-		"terminal.ansiWhite": "#f9f5f4",
+		// "terminal.ansiWhite": "#f9f5f4",
+		"terminal.ansiWhite": "#f3f1f3",
 		"terminal.ansiYellow": "#ffb4b8",
 		"terminal.ansiBrightBlack": "#4a4543",
 		"terminal.ansiBrightBlue": "#82b3e2",
@@ -287,7 +322,7 @@ cute pairs:
 		"terminal.ansiBrightGreen": "#98c4ba",
 		"terminal.ansiBrightMagenta": "#eeaabe",
 		"terminal.ansiBrightRed": "#ea8297",
-		"terminal.ansiBrightWhite": "#f9f5f4",
+		"terminal.ansiBrightWhite": "#f3f1f3",
 		"terminal.ansiBrightYellow": "#ffb4b8",
 	},
 	"name": "soft era"
