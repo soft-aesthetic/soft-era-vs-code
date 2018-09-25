@@ -225,6 +225,7 @@ cute pairs:
 		// "editor.foreground": "#b4addf",
 		
 		"editorLineNumber.foreground": "#e7d8d8cc",
+		// "editorLineNumber.foreground": "#e2e1df",
 		"editorLineNumber.activeForeground": "#b4addf",
 		"editorCursor.foreground": "#EEAABE",
 		"editorCursor.background": "#4a4543",
@@ -240,7 +241,8 @@ cute pairs:
 		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
 		"editorWarning.foreground": "#e4846f",
 
-		"editorWhitespace.foreground": "#bbbab97f",
+		// "editorWhitespace.foreground": "#bbbab97f", // this was a good gray
+		"editorWhitespace.foreground": "#e7d8d899", // preferable to have all "non-special characters" be a variant of background & foreground colors?
 		// "editorWhitespace.foreground": "#bbbab9",
 		// "editorWhitespace.foreground": "#e2e1dfdd",
 		"editorIndentGuide.background": "#e7d8d855",
@@ -290,7 +292,7 @@ cute pairs:
 		// 
 		// Panels and Terminal
 		//
-		// #f9f5f4 #e3e6ed44 #e3e6ed66
+		// #f9f5f4 #e3e6ed44 #e3e6ed66 #e3e6ed99
 		"panel.background": "#f3f1f3",
 		"panel.border": "#f3f1f3",
 		"panel.dropBackground": "#cfc9f466",
@@ -298,7 +300,7 @@ cute pairs:
 		"panelTitle.activeForeground": "#958ac5",
 		"panelTitle.inactiveForeground": "#666d7dbb",
 
-		"terminal.border": "#cfcccc",
+		"terminal.border": "#e2e1dfdd",
 		// "terminal.background": "#F9F5F5",
 		"terminal.background": "#f3f1f3",
 		"terminal.foreground": "#ba989c",
