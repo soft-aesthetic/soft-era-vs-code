@@ -324,6 +324,7 @@
 		<dict>
 			<key>name</key>
 			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
+			<!-- TODO: object literal styles? similar to typing in string?? idk about that specific option tho…… -->
 			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag, punctuation.definition.tag</string>
