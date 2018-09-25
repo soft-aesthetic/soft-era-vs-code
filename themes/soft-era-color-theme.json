@@ -336,7 +336,7 @@ cute pairs:
 		"terminal.ansiBrightGreen": "#98c4ba",
 		"terminal.ansiBrightMagenta": "#eeaabe",
 		"terminal.ansiBrightRed": "#ea8297",
-		"terminal.ansiBrightWhite": "#f1ecee",
+		"terminal.ansiBrightWhite": "#f9f5f4",
 		"terminal.ansiBrightYellow": "#ffb4b8",
 	},
 	"name": "soft era"
