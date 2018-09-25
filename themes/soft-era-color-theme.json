@@ -146,6 +146,7 @@ cute pairs:
 		
 		"breadcrumb.background": "#f9f5f4",
 		// "breadcrumb.foreground": "#c9c8c7",
+		// TODO: what breadcrum text color makes sense in the contextual meaning? similar to whitespace character color? a purple indicating current place?
 		"breadcrumb.foreground": "#b4b8d0",
 		"breadcrumb.activeSelectionForeground": "#4a4543",
 		"breadcrumb.focusForeground": "#db90a7",
@@ -293,17 +294,30 @@ cute pairs:
 		// Panels and Terminal
 		//
 		// #f9f5f4 #e3e6ed44 #e3e6ed66 #e3e6ed99
-		"panel.background": "#f3f1f3",
-		"panel.border": "#f3f1f3",
+		// "panel.background": "#f3f1f3",
+		// "panel.background": "#f3f1f3",
+		// "panel.background": "#f0eff2",
+		// "panel.background": "#f9f5f4",
+		// "panel.background": "#ede8ea", // nice!!! maybe too dark tho :((
+		"panel.background": "#f1ecee", // nice!!! maybe too dark tho :((
+		"panel.border": "#f1ecee",
 		"panel.dropBackground": "#cfc9f466",
 		"panelTitle.activeBorder": "#b4addf",
 		"panelTitle.activeForeground": "#958ac5",
-		"panelTitle.inactiveForeground": "#666d7dbb",
+		// "panelTitle.inactiveForeground": "#666d7dbb",
+		// "panelTitle.inactiveForeground": "#666d7d9c",
+		// "panelTitle.inactiveForeground": "#cec1c6",
+		// "panelTitle.inactiveForeground": "#c7b8be", // nice color!!! more contrast?
+		"panelTitle.inactiveForeground": "#c0aeb5",
 
-		"terminal.border": "#e2e1dfdd",
+		// "terminal.border": "#e2e1dfdd",
+		"terminal.border": "#e2dcdf",
 		// "terminal.background": "#F9F5F5",
-		"terminal.background": "#f3f1f3",
-		"terminal.foreground": "#ba989c",
+		"terminal.background": "#f1ecee",
+		// "terminal.foreground": "#ba989c",
+		// "terminal.foreground": "#aa8689",
+		// "terminal.foreground": "#c7b8be",
+		"terminal.foreground": "#a1858f",
 		"terminal.selectionBackground": "#c8bfff34",
 		"terminalCursor.background": "#4a4543",
 		"terminalCursor.foreground": "#eeaabe",
@@ -314,7 +328,7 @@ cute pairs:
 		"terminal.ansiMagenta": "#eeaabe",
 		"terminal.ansiRed": "#ea8297",
 		// "terminal.ansiWhite": "#f9f5f4",
-		"terminal.ansiWhite": "#f3f1f3",
+		"terminal.ansiWhite": "#f1ecee",
 		"terminal.ansiYellow": "#ffb4b8",
 		"terminal.ansiBrightBlack": "#4a4543",
 		"terminal.ansiBrightBlue": "#82b3e2",
@@ -322,7 +336,7 @@ cute pairs:
 		"terminal.ansiBrightGreen": "#98c4ba",
 		"terminal.ansiBrightMagenta": "#eeaabe",
 		"terminal.ansiBrightRed": "#ea8297",
-		"terminal.ansiBrightWhite": "#f3f1f3",
+		"terminal.ansiBrightWhite": "#f1ecee",
 		"terminal.ansiBrightYellow": "#ffb4b8",
 	},
 	"name": "soft era"
