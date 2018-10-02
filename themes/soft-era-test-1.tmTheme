@@ -4,6 +4,10 @@
 <!-- ============================================ -->
 <!-- app:  http://tmtheme-editor.herokuapp.com    -->
 <!-- code: https://github.com/aziz/tmTheme-Editor -->
+<!-- TODO:
+- markdown sync with other styles (like quotes matching strings, etc
+- 
+ -->
 <plist version="1.0">
 <dict>
 	<key>author</key>
