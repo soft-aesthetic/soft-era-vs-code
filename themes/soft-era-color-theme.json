@@ -68,276 +68,291 @@ cute pairs:
 #98c4ba
 */
 {
-	"tokenColors": "./soft-era-test-1.tmTheme",
-	"colors": {
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		//
-		// UI
-		//
-		"foreground": "#666d7d", // default text color in the editor
-		"focusBorder": "#b4addf",
-		// "scrollbar.shadow": "#f9f5f4",
-		"scrollbar.shadow": "#94848444",
-		"widget.shadow": "#94848422",
+  "tokenColors": "./soft-era-test-1.tmTheme",
+  "colors": {
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    //
+    // UI
+    //
+    "foreground": "#666d7d", // default text color in the editor
+    "focusBorder": "#b4addf",
+    // "scrollbar.shadow": "#f9f5f4",
+    "scrollbar.shadow": "#94848444",
+    "widget.shadow": "#94848422",
+    // TODO: general border between eidtor windows and stuff?
 
-		// TODO: more purple-toned sidebar background?
-		// "sideBar.background": "#fbfbfb",
-		"sideBar.background": "#e3e6ed",
-		"sideBar.foreground": "#666d7d",
-		"sideBar.border": "#e3e6ed",
-		"sideBarSectionHeader.background": "#d5d9e2",
-		"sideBarSectionHeader.foreground": "#4a4543",
-		"sideBar.dropBackground": "#fdfbfb",
-		"sideBarTitle.foreground": "#666d7d",
-		
-		"list.activeSelectionForeground": "#ffffff",
-		"list.activeSelectionBackground": "#b4addf",
-		"list.dropBackground": "#fdfbfb",
-		"list.highlightForeground": "#dd698c",
-		"list.hoverBackground": "#eceafa",
-		"list.focusBackground": "#cfc9f4",
-		"list.focusForeground": "#ffffff",
-		"list.hoverForeground": "#4a4543",
-		// "list.inactiveFocusBackground": "#ebedf3",
-		"list.inactiveFocusBackground": "#e9ecf1",
-		"list.inactiveSelectionBackground": "#e9ecf1",
-		"list.inactiveSelectionForeground": "#666d7d",
-		"list.errorForeground": "#dd698c",
-		"list.invalidItemForeground": "#e4846f", // soft-orange
-		"list.warningForeground": "#CABF9A", // soft-yellow-darker
+    // TODO: more purple-toned sidebar background?
+    // "sideBar.background": "#fbfbfb",
+    "sideBar.background": "#e3e6ed",
+    // "sideBar.background": "#f1ecee",
+    // "sideBar.background": "#d8d0d3",
+    // "sideBar.foreground": "#666d7d",
+    "sideBar.foreground": "#666d7dee",
+    "sideBar.border": "#e3e6ed",
+    "sideBarSectionHeader.background": "#d5d9e2",
+    "sideBarSectionHeader.foreground": "#4a4543",
+    "sideBar.dropBackground": "#fdfbfb",
+    "sideBarTitle.foreground": "#666d7d",
 
-		"statusBar.background": "#e3e6ed",
-		"statusBar.noFolderBackground": "#e3e6ed",
-		"statusBar.debuggingBackground": "#e3e6ed",
-		"statusBar.foreground": "#666d7d",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.activeSelectionBackground": "#b4addf",
+    "list.dropBackground": "#fdfbfb",
+    // TODO: find a better solution for this. rly wish i could set list background color just for the overlay command menu??
+    "list.highlightForeground": "#dd698c",
+    // "list.highlightForeground": "#252535",
+    // "list.highlightForeground": "#0000ff",
+    // "list.highlightForeground": "#25b7b8",
+    // "list.highlightForeground": "#716b8f",
+    // "list.highlightForeground": "#212121",
+    "list.hoverBackground": "#eceafa",
+    "list.focusBackground": "#cfc9f4",
+    // "list.focusForeground": "#ffffff",
+    "list.focusForeground": "#615c7a",
+    "list.hoverForeground": "#4a4543",
+    // "list.inactiveFocusBackground": "#ebedf3",
+    "list.inactiveFocusBackground": "#e9ecf1",
+    "list.inactiveSelectionBackground": "#e9ecf1",
+    "list.inactiveSelectionForeground": "#666d7d",
+    "list.errorForeground": "#dd698c",
+    "list.invalidItemForeground": "#e4846f", // soft-orange
+    "list.warningForeground": "#CABF9A", // soft-yellow-darker
 
-		"activityBar.background": "#e3e6ed",
-		"activityBar.foreground": "#666d7d",
-		"activityBarBadge.background": "#eeaabe",
-		"activityBarBadge.foreground": "#fbfbfb",
+    "statusBar.background": "#e3e6ed",
+    "statusBar.noFolderBackground": "#e3e6ed",
+    "statusBar.debuggingBackground": "#e3e6ed",
+    "statusBar.foreground": "#666d7d",
 
-		// TODO: verify that "menu.*" items refer to windows file/etc buttongs
-		"menu.background": "#e3e6ed",
-		"menu.foreground": "#666d7d",
-		"menu.selectionForeground": "#fbfbfb",
-		"menu.selectionBackground": "#b4addf",
-		"menu.selectionBorder": "#b4addf",
-		"menubar.selectionBorder": "#b4addf",
-		"menubar.selectionBackground": "#b4addf",
-		"menubar.selectionForeground": "#fbfbfb",
+    "activityBar.background": "#e3e6ed",
+    "activityBar.foreground": "#666d7d",
+    // "activityBarBadge.background": "#eeaabe",
+    // "activityBarBadge.background": "#d693a7",
+    // "activityBarBadge.background": "#db97ac",
+    "activityBarBadge.background": "#d1899f",
+    "activityBarBadge.foreground": "#fbfbfb",
 
-		"button.foreground": "#fbfbfb",
-		"button.background": "#25B7B8",
-		"button.hoverBackground": "#3b9191",
-		"welcomePage.buttonBackground": "#b4addf",
-		"welcomePage.buttonHoverBackground": "#958ac5",
+    // TODO: verify that "menu.*" items refer to windows file/etc buttongs
+    "menu.background": "#e3e6ed",
+    "menu.foreground": "#666d7d",
+    "menu.selectionForeground": "#fbfbfb",
+    "menu.selectionBackground": "#b4addf",
+    "menu.selectionBorder": "#b4addf",
+    "menubar.selectionBorder": "#b4addf",
+    "menubar.selectionBackground": "#b4addf",
+    "menubar.selectionForeground": "#fbfbfb",
 
-		"titleBar.activeForeground": "#666d7d",
-		"titleBar.activeBackground": "#e3e6ed",
-		"titleBar.inactiveBackground": "#e3e6ed",
-		"titleBar.inactiveForeground": "#9c9c9c",
-		
-		"badge.background": "#eeaabe",
-		"badge.foreground": "#fbfbfb",
-		
-		
-		"breadcrumb.background": "#f9f5f4",
-		// "breadcrumb.foreground": "#c9c8c7",
-		// TODO: what breadcrum text color makes sense in the contextual meaning? similar to whitespace character color? a purple indicating current place?
-		"breadcrumb.foreground": "#b4b8d0",
-		"breadcrumb.activeSelectionForeground": "#4a4543",
-		"breadcrumb.focusForeground": "#db90a7",
-		"breadcrumbPicker.background": "#fbfbfb",
-		
-		// "editorGroupHeader.tabsBackground": "#e3e6ed",
-		// "editorGroupHeader.tabsBackground": "#f9f5f488",
-		// "editorGroupHeader.tabsBackground": "#ECECEC",
-		"editorGroupHeader.tabsBackground": "#ECECF0",
-		// "tab.border": "#e3e6ed",
-		"tab.border": "#ECECEC",
-		"tab.activeBorder": "#f9f5f4",
-		"tab.activeBorderTop": "#b4addf",
-		// "tab.activeBorderTop": "#f9f5f4",
-		"tab.activeBackground": "#f9f5f4",
-		// "tab.activeForeground": "#4a4543",
-		"tab.activeForeground": "#958ac5",
-		// "tab.inactiveBackground": "#e3e6ed",
-		// "tab.inactiveBackground": "#f9f5f488",
-		// "tab.inactiveBackground": "#ECECEC",
-		// "tab.inactiveBackground": "#f9f5f466",
-		"tab.inactiveBackground": "#ECECF0",
-		"tab.inactiveForeground": "#666d7dbb",
-		// "tab.hoverBackground": "#ff0000",	
-		// "tab.hoverBorder": "#ff0000",
-		// "tab.unfocusedActiveBorder": "#ff0000",
-		"tab.unfocusedActiveBorderTop": "#ece9e8",
-		"tab.unfocusedActiveForeground": "#4a454366",
-		"tab.unfocusedInactiveForeground": "#666d7d77",
-		// "tab.unfocusedActiveBorder": "#f1efee",
-		// "tab.unfocusedHoverBackground": "#ff0000",
-		// "tab.unfocusedHoverBorder": "#ff0000",
-		// "tab.unfocusedInactiveForeground": "#ff0000",
+    "button.foreground": "#fbfbfb",
+    "button.background": "#25B7B8",
+    "button.hoverBackground": "#3b9191",
+    "welcomePage.buttonBackground": "#b4addf",
+    "welcomePage.buttonHoverBackground": "#958ac5",
 
-		"editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
-		"editorWidget.border": "#cfc9f499",
-		"editorWidget.resizeBorder": "#cfcccc",
-		// "editorHoverWidget.background": "#fbfbfb",
-		// "editorHoverWidget.border": "#eceafa",
-		
-		"editorSuggestWidget.foreground": "#948484",
-		"editorSuggestWidget.background": "#ffffff",
-		"editorSuggestWidget.border": "#cfc9f499",
-		"editorSuggestWidget.highlightForeground": "#dd698c",
-		"editorSuggestWidget.selectedBackground": "#eceafa",
-		// "debugExceptionWidget.background": "#ff0000",
-		// "debugExceptionWidget.border": "#ff0000",
-		
-		
+    "titleBar.activeForeground": "#666d7d",
+    "titleBar.activeBackground": "#e3e6ed",
+    "titleBar.inactiveBackground": "#e3e6ed",
+    "titleBar.inactiveForeground": "#9c9c9c",
 
-		"activityBar.dropBackground": "#fdfbfb",
+    "badge.background": "#eeaabe",
+    "badge.foreground": "#fbfbfb",
 
-		// "notificationCenter.border": "#fdfbfb",
-		// "notificationToast.border": "#ffffff",
-		"notificationCenter.border": "#f6fffd",
-		"notificationToast.border": "#f6fffd",
-		"notificationCenterHeader.background": "#f6fffd",
-		"notificationCenterHeader.foreground": "#4a4543",
-		"notificationLink.foreground": "#0000ff",
-		"notifications.background": "#f6fffd",
-		"notifications.border": "#ebedf3",
-		"notifications.foreground": "#4a4543",
+    "breadcrumb.background": "#f9f5f4",
+    // "breadcrumb.foreground": "#c9c8c7",
+    // TODO: what breadcrum text color makes sense in the contextual meaning? similar to whitespace character color? a purple indicating current place?
+    "breadcrumb.foreground": "#b4b8d0",
+    "breadcrumb.activeSelectionForeground": "#4a4543",
+    "breadcrumb.focusForeground": "#db90a7",
+    "breadcrumbPicker.background": "#fbfbfb",
 
+    // "editorGroupHeader.tabsBackground": "#e3e6ed",
+    // "editorGroupHeader.tabsBackground": "#f9f5f488",
+    // "editorGroupHeader.tabsBackground": "#ECECEC",
+    "editorGroupHeader.tabsBackground": "#ECECF0",
+    // "tab.border": "#e3e6ed",
+    "tab.border": "#ECECEC",
+    "tab.activeBorder": "#f9f5f4",
+    // "tab.activeBorderTop": "#b4addf",
+    "tab.activeBorderTop": "#f9f5f4",
+    // "tab.activeBorderTop": "#f9f5f4",
+    "tab.activeBackground": "#f9f5f4",
+    // "tab.activeForeground": "#4a4543",
+    "tab.activeForeground": "#958ac5",
+    // "tab.inactiveBackground": "#e3e6ed",
+    // "tab.inactiveBackground": "#f9f5f488",
+    // "tab.inactiveBackground": "#ECECEC",
+    // "tab.inactiveBackground": "#f9f5f466",
+    "tab.inactiveBackground": "#ECECF0",
+    "tab.inactiveForeground": "#666d7dbb",
+    // "tab.hoverBackground": "#ff0000",
+    // "tab.hoverBorder": "#ff0000",
+    // "tab.unfocusedActiveBorder": "#ff0000",
+    "tab.unfocusedActiveBorderTop": "#ece9e8",
+    "tab.unfocusedActiveForeground": "#4a454366",
+    // "tab.unfocusedInactiveForeground": "#666d7d77",
+    "tab.unfocusedInactiveForeground": "#666d7d6d",
+    // "tab.unfocusedActiveBorder": "#f1efee",
+    // "tab.unfocusedHoverBackground": "#ff0000",
+    // "tab.unfocusedHoverBorder": "#ff0000",
+    // "tab.unfocusedInactiveForeground": "#ff0000",
 
+    "editorWidget.background": "#fbfbfb", // find/replace, hover info tooltips
+    "editorWidget.border": "#cfc9f499",
+    "editorWidget.resizeBorder": "#cfcccc",
+    // "editorHoverWidget.background": "#fbfbfb",
+    // "editorHoverWidget.border": "#eceafa",
 
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		////////////////////////////////////////////////////////
-		//
-		//
-		// Editor Windows & Syntax
-		//
-		//
-		"editor.background": "#f9f5f5",
-		"editor.foreground": "#ba989c",
-		// "editor.foreground": "#b4addf",
-		
-		"editorLineNumber.foreground": "#e7d8d8cc",
-		// "editorLineNumber.foreground": "#e2e1df",
-		"editorLineNumber.activeForeground": "#b4addf",
-		"editorCursor.foreground": "#EEAABE",
-		"editorCursor.background": "#4a4543",
+    "editorSuggestWidget.foreground": "#948484",
+    "editorSuggestWidget.background": "#ffffff",
+    "editorSuggestWidget.border": "#cfc9f499",
+    "editorSuggestWidget.highlightForeground": "#dd698c",
+    "editorSuggestWidget.selectedBackground": "#eceafa",
+    // "debugExceptionWidget.background": "#ff0000",
+    // "debugExceptionWidget.border": "#ff0000",
 
-		"editor.lineHighlightBackground": "#fdfbfb",
-		"editor.selectionBackground": "#eceafa",
-		"editor.selectionForeground": "#958ac5",
-		"editor.inactiveSelectionBackground": "#e2e1dfaa",
-		"editorBracketMatch.background": "#4a4543",
-		"editorBracketMatch.border": "#4a4543",
-		"editorError.foreground": "#dd698ccc", // soft-red
-		"editorInfo.foreground": "#82B4E3",
-		"editorHint.foreground": "#98c4ba", // soft-yellow-darker
-		"editorWarning.foreground": "#e4846f",
+    "activityBar.dropBackground": "#fdfbfb",
 
-		// "editorWhitespace.foreground": "#bbbab97f", // this was a good gray
-		"editorWhitespace.foreground": "#e7d8d899", // preferable to have all "non-special characters" be a variant of background & foreground colors?
-		// "editorWhitespace.foreground": "#bbbab9",
-		// "editorWhitespace.foreground": "#e2e1dfdd",
-		"editorIndentGuide.background": "#e7d8d855",
-		"editorIndentGuide.activeBackground": "#e2e1df",
+    // "notificationCenter.border": "#fdfbfb",
+    // "notificationToast.border": "#ffffff",
+    "notificationCenter.border": "#f6fffd",
+    "notificationToast.border": "#f6fffd",
+    "notificationCenterHeader.background": "#f6fffd",
+    "notificationCenterHeader.foreground": "#4a4543",
+    "notificationLink.foreground": "#0000ff",
+    "notifications.background": "#f6fffd",
+    "notifications.border": "#ebedf3",
+    "notifications.foreground": "#4a4543",
 
-		// TODO: establish new "error" red?
-		"errorForeground": "#dd698c",
-		"inputValidation.errorBackground": "#dd698c",
-		"inputValidation.infoBackground": "#82B4E3",
-		"inputValidation.warningBackground": "#e7d59a",
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    //
+    //
+    // Editor Windows & Syntax
+    //
+    //
+    "editor.background": "#f9f5f5",
+    // "editor.foreground": "#ba989c",
+    "editor.foreground": "#b6919d",
+    // "editor.foreground": "#b4addf",
 
-		"editorGroup.dropBackground": "#cfc9f466",
+    // "editorLineNumber.foreground": "#e7d8d8cc",
+    "editorLineNumber.foreground": "#ebe2e6",
+    // "editorLineNumber.foreground": "#e2e1df",
+    // "editorLineNumber.activeForeground": "#b4addf",
+    "editorLineNumber.activeForeground": "#ac9da3",
+    "editorCursor.foreground": "#EEAABE",
+    "editorCursor.background": "#4a4543",
 
-		"editorCodeLens.foreground": "#e7d8d8",
+    "editor.lineHighlightBackground": "#fdfbfb",
+    "editor.selectionBackground": "#eceafa",
+    "editor.selectionForeground": "#958ac5",
+    "editor.inactiveSelectionBackground": "#e2e1dfaa",
+    "editorBracketMatch.background": "#4a4543",
+    "editorBracketMatch.border": "#4a4543",
+    "editorError.foreground": "#dd698ccc", // soft-red
+    "editorInfo.foreground": "#82B4E3",
+    "editorHint.foreground": "#98c4ba", // soft-yellow-darker
+    // "editorHint.foreground": "#8ebbb0", // soft-yellow-darker
+    "editorWarning.foreground": "#e4846f",
 
-		"gitDecoration.addedResourceForeground": "#98c4ba",
-		"gitDecoration.conflictingResourceForeground": "#e4846f",
-		"gitDecoration.deletedResourceForeground": "#dd6969",
-		"gitDecoration.ignoredResourceForeground": "#666666",
-		"gitDecoration.submoduleResourceForeground": "#25b7b8",
-		"gitDecoration.untrackedResourceForeground": "#db90a7",
-		"gitDecoration.modifiedResourceForeground": "#d3a656",
-		// TODO: tone down gutter colors?
+    // "editorWhitespace.foreground": "#bbbab97f", // this was a good gray
+    "editorWhitespace.foreground": "#e7d8d899", // preferable to have all "non-special characters" be a variant of background & foreground colors?
+    // "editorWhitespace.foreground": "#bbbab9",
+    // "editorWhitespace.foreground": "#e2e1dfdd",
+    "editorIndentGuide.background": "#e7d8d855",
+    "editorIndentGuide.activeBackground": "#e2e1df",
 
-		"editor.findMatchBackground": "#fffce9",
-		"editor.findMatchBorder": "#e7d59a",
-		"editor.findMatchHighlightBackground": "#fffae0", // other match results
-		"editor.findMatchHighlightBorder": "#f1e48f",
-		"editorOverviewRuler.findMatchForeground": "#948484",
-		// "editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
-		"editor.findRangeHighlightBorder": "#f0e2c3cc",
-		// "editor.hoverHighlightBackground": "#ffffffaa",
-		"editor.hoverHighlightBackground": "#ffffffff",
-		"editor.wordHighlightBorder": "#f0e2c3cc",
-		"editor.wordHighlightBackground": "#fffaf5b2",
-		"editor.selectionHighlightBackground": "#feffbf3d",
-		"editor.selectionHighlightBorder": "#f1e48fd7",
+    // TODO: establish new "error" red?
+    "errorForeground": "#dd698c",
+    "inputValidation.errorBackground": "#dd698c",
+    "inputValidation.infoBackground": "#82B4E3",
+    "inputValidation.warningBackground": "#e7d59a",
 
-		
-		
-		
-		// TODO: how to style TODOs with this highlight extension?
+    "editorGroup.dropBackground": "#cfc9f466",
 
-		///////////////////////////////////
-		///////////////////////////////////
-		///////////////////////////////////
-		// 
-		// Panels and Terminal
-		//
-		// #f9f5f4 #e3e6ed44 #e3e6ed66 #e3e6ed99
-		// "panel.background": "#f3f1f3",
-		// "panel.background": "#f3f1f3",
-		// "panel.background": "#f0eff2",
-		// "panel.background": "#f9f5f4",
-		// "panel.background": "#ede8ea", // nice!!! maybe too dark tho :((
-		"panel.background": "#f1ecee", // nice!!! maybe too dark tho :((
-		"panel.border": "#f1ecee",
-		"panel.dropBackground": "#cfc9f466",
-		"panelTitle.activeBorder": "#b4addf",
-		"panelTitle.activeForeground": "#958ac5",
-		// "panelTitle.inactiveForeground": "#666d7dbb",
-		// "panelTitle.inactiveForeground": "#666d7d9c",
-		// "panelTitle.inactiveForeground": "#cec1c6",
-		// "panelTitle.inactiveForeground": "#c7b8be", // nice color!!! more contrast?
-		"panelTitle.inactiveForeground": "#c0aeb5",
+    "editorCodeLens.foreground": "#e7d8d8",
 
-		// "terminal.border": "#e2e1dfdd",
-		"terminal.border": "#e2dcdf",
-		// "terminal.background": "#F9F5F5",
-		"terminal.background": "#f1ecee",
-		"terminal.foreground": "#ba989c",
-		// "terminal.foreground": "#aa8689",
-		// "terminal.foreground": "#c7b8be",
-		// "terminal.foreground": "#a1858f",
-		"terminal.selectionBackground": "#c8bfff34",
-		"terminalCursor.background": "#4a4543",
-		"terminalCursor.foreground": "#eeaabe",
-		"terminal.ansiBlack": "#4a4543",
-		"terminal.ansiBlue": "#82b3e2",
-		"terminal.ansiCyan": "#b4adde",
-		"terminal.ansiGreen": "#98c4ba",
-		"terminal.ansiMagenta": "#eeaabe",
-		"terminal.ansiRed": "#ea8297",
-		// "terminal.ansiWhite": "#f9f5f4",
-		"terminal.ansiWhite": "#f1ecee",
-		"terminal.ansiYellow": "#ffb4b8",
-		"terminal.ansiBrightBlack": "#4a4543",
-		"terminal.ansiBrightBlue": "#82b3e2",
-		"terminal.ansiBrightCyan": "#b4adde",
-		"terminal.ansiBrightGreen": "#98c4ba",
-		"terminal.ansiBrightMagenta": "#eeaabe",
-		"terminal.ansiBrightRed": "#ea8297",
-		"terminal.ansiBrightWhite": "#f9f5f4",
-		"terminal.ansiBrightYellow": "#ffb4b8",
-	},
-	"name": "soft era"
+    "gitDecoration.addedResourceForeground": "#98c4ba",
+    "gitDecoration.conflictingResourceForeground": "#e4846f",
+    "gitDecoration.deletedResourceForeground": "#dd6969",
+    "gitDecoration.ignoredResourceForeground": "#666666",
+    "gitDecoration.submoduleResourceForeground": "#25b7b8",
+    "gitDecoration.untrackedResourceForeground": "#db90a7",
+    "gitDecoration.modifiedResourceForeground": "#d3a656",
+    // TODO: tone down gutter colors?
+
+    "editor.findMatchBackground": "#fffce9",
+    "editor.findMatchBorder": "#e7d59a",
+    "editor.findMatchHighlightBackground": "#fffae0", // other match results
+    "editor.findMatchHighlightBorder": "#f1e48f",
+    "editorOverviewRuler.findMatchForeground": "#948484",
+    // "editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
+    "editor.findRangeHighlightBorder": "#f0e2c3cc",
+    // "editor.hoverHighlightBackground": "#ffffffaa",
+    "editor.hoverHighlightBackground": "#ffffffff",
+    "editor.wordHighlightBorder": "#f0e2c3cc",
+    "editor.wordHighlightBackground": "#fffaf5b2",
+    "editor.selectionHighlightBackground": "#feffbf3d",
+    "editor.selectionHighlightBorder": "#f1e48fd7",
+    // TODO: what is the range highlight??
+
+    // TODO: how to style TODOs with this highlight extension?
+
+    ///////////////////////////////////
+    ///////////////////////////////////
+    ///////////////////////////////////
+    //
+    // Panels and Terminal
+    //
+    // #f9f5f4 #e3e6ed44 #e3e6ed66 #e3e6ed99
+    // "panel.background": "#f3f1f3",
+    // "panel.background": "#f3f1f3",
+    // "panel.background": "#f0eff2",
+    // "panel.background": "#f9f5f4",
+    // "panel.background": "#ede8ea", // nice!!! maybe too dark tho :((
+    "panel.background": "#f1ecee", // nice!!! maybe too dark tho :((
+    "panel.border": "#f1ecee",
+    "panel.dropBackground": "#cfc9f466",
+    "panelTitle.activeBorder": "#b4addf",
+    "panelTitle.activeForeground": "#958ac5",
+    // "panelTitle.inactiveForeground": "#666d7dbb",
+    // "panelTitle.inactiveForeground": "#666d7d9c",
+    // "panelTitle.inactiveForeground": "#cec1c6",
+    // "panelTitle.inactiveForeground": "#c7b8be", // nice color!!! more contrast?
+    // "panelTitle.inactiveForeground": "#c0aeb5",
+    // "panelTitle.inactiveForeground": "#aa979f",
+    "panelTitle.inactiveForeground": "#918b8d",
+
+    // "terminal.border": "#e2e1dfdd",
+    "terminal.border": "#e2dcdf",
+    // "terminal.background": "#F9F5F5",
+    "terminal.background": "#f1ecee",
+    "terminal.foreground": "#ba989c",
+    // "terminal.foreground": "#aa8689",
+    // "terminal.foreground": "#c7b8be",
+    // "terminal.foreground": "#a1858f",
+    "terminal.selectionBackground": "#c8bfff34",
+    "terminalCursor.background": "#4a4543",
+    "terminalCursor.foreground": "#eeaabe",
+    "terminal.ansiBlack": "#4a4543",
+    "terminal.ansiBlue": "#82b3e2",
+    "terminal.ansiCyan": "#b4adde",
+    "terminal.ansiGreen": "#98c4ba",
+    "terminal.ansiMagenta": "#eeaabe",
+    "terminal.ansiRed": "#ea8297",
+    // "terminal.ansiWhite": "#f9f5f4",
+    "terminal.ansiWhite": "#f1ecee",
+    "terminal.ansiYellow": "#ffb4b8",
+    "terminal.ansiBrightBlack": "#4a4543",
+    "terminal.ansiBrightBlue": "#82b3e2",
+    "terminal.ansiBrightCyan": "#b4adde",
+    "terminal.ansiBrightGreen": "#98c4ba",
+    "terminal.ansiBrightMagenta": "#eeaabe",
+    "terminal.ansiBrightRed": "#ea8297",
+    "terminal.ansiBrightWhite": "#f9f5f4",
+    "terminal.ansiBrightYellow": "#ffb4b8"
+  },
+  "name": "soft era"
 }
