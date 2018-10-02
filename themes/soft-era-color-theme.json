@@ -254,7 +254,7 @@ cute pairs:
     "editorError.foreground": "#dd698ccc", // soft-red
     "editorInfo.foreground": "#82B4E3",
     "editorHint.foreground": "#98c4ba", // soft-yellow-darker
-    "editorHint.foreground": "#8ebbb0", // soft-yellow-darker
+    // "editorHint.foreground": "#8ebbb0", // soft-yellow-darker
     "editorWarning.foreground": "#e4846f",
 
     // "editorWhitespace.foreground": "#bbbab97f", // this was a good gray
