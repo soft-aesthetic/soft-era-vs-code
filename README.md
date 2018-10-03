@@ -23,7 +23,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**or**
 
-- In the VS Code application, go to **Extensions** 
+- In the VS Code application, go to **Extensions**
   - (the square icon on the sidebar, or **View > Extensions**)
 - Search for `soft era`
 - Click the **Install** button
@@ -40,7 +40,7 @@
 
 ### Enabling Italics
 
-Preview: 
+Preview:
 
 ![soft era syntax with italics enabled](italic.png)
 
@@ -169,8 +169,24 @@ Preview:
 }
 ```
 
-
 💾 enjoy <3
+
+---
+
+## TODO
+
+(**note:** current repo version has significant visual changes from the version on the VS Code Extensions Marketplace! want to get things feelig solid/done before pushing the next big update)
+
+- [ ] rearrange code so that like, all UI shell background colors are next to each other
+- [ ] markdown sync with other styles (like quotes matching strings, etc
+- sidebar background / overall UI shell appearance:
+  - [ ] use a more manilla-colored background to match the editor and panel background color?
+  - [ ] make the cool tones more purple/lavendar?
+- [ ] verify that `menu.*` items refer to windows file/etc buttongs
+- [ ] what breadcrumb text color makes sense in the contextual color meaning system? similar to whitespace character color? a purple indicating current place?
+- [ ] establish new "error" red?
+- extentions
+  - [ ] possible to style TODOs with this highlight extension? https://github.com/wayou/vscode-todo-highlight/issues/127
 
 ---
 
