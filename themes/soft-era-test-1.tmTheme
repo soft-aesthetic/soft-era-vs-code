@@ -86,6 +86,7 @@
 			<dict>
 				<key>foreground</key>
 				<string>#e2d1d1</string>
+				<!-- <string>#cab7bc</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -179,7 +180,7 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>meta.class, support.class, entity.name.class, entity.name.type.class</string>
+			<string>meta.class, support.class, entity.name.class, entity.name.type.class, entity.other.attribute-name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -328,6 +329,7 @@
 		<dict>
 			<key>name</key>
 			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
+			<!-- TODO: object literal styles? similar to typing in string?? idk about that specific option tho…… -->
 			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag, punctuation.definition.tag</string>
@@ -335,20 +337,41 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ffb4b8</string> -->
-				<string>#eeaabe</string>
+				<!-- <string>#eeaabe</string> -->
+				<!-- <string>#db97ac</string> -->
+				<string>#d1899f</string>
 				<!-- <string>#db90a7</string> -->
 				<!-- <string>#b4addf</string> -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Attributes</string>
+			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
+			<!-- TODO: object literal styles? similar to typing in string?? idk about that specific option tho…… -->
+			<!-- meta.jsx.children.js -->
+			<string>tag content</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>meta.jsx.children</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ba989c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attributes and properites</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name,  support.type.property-name</string>
+			<!-- <string>entity.other.attribute-name</string> -->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#948484</string>
+				<!-- <string>#b4addf</string> -->
+				<!-- <string>#98c4ba</string> -->
+				<!-- <string>#8ebbb0</string> -->
+				<!-- <string>#3b9191</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -377,11 +400,13 @@
 			<key>name</key>
 			<string>Values</string>
 			<key>scope</key>
+			<!-- <string>none, support.constant.property-value</string> -->
 			<string>none</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#82b4e3</string>
+				<!-- <string>#e4bcbf</string> -->
 				<key>background</key>
 				<string>#E9E4E18A</string>
 			</dict>
