@@ -185,6 +185,7 @@ Preview:
 - [ ] verify that `menu.*` items refer to windows file/etc buttongs
 - [ ] what breadcrumb text color makes sense in the contextual color meaning system? similar to whitespace character color? a purple indicating current place?
 - [ ] establish new "error" red?
+- [ ] object literal highlight color?
 - extentions
   - [ ] possible to style TODOs with this highlight extension? https://github.com/wayou/vscode-todo-highlight/issues/127
 

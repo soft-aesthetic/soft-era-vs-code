@@ -71,7 +71,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ddcdce</string>
+				<!-- <string>#ddcdce</string> -->
+				<!-- <string>#d9c8c8</string> -->
+				<string>#d1bebe</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -180,11 +182,24 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>meta.class, support.class, entity.name.class, entity.name.type.class, entity.other.attribute-name.class</string>
+			<string>meta.class, support.class, entity.name.class, entity.name.type.class, entity.other.attribute-name.class, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ce9ae8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Pseudo-classes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#ffb4b8</string> -->
+				<string>#eeaabe</string>
+				<!-- <string>#cabf9a</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -328,8 +343,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
-			<!-- TODO: object literal styles? similar to typing in string?? idk about that specific option tho…… -->
 			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag, punctuation.definition.tag</string>
@@ -346,8 +359,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<!-- TODO: rethink tag or error color? (this value uses the "Error" red) -->
-			<!-- TODO: object literal styles? similar to typing in string?? idk about that specific option tho…… -->
 			<!-- meta.jsx.children.js -->
 			<string>tag content</string>
 			<key>scope</key>
