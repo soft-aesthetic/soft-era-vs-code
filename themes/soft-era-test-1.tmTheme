@@ -354,9 +354,9 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ffb4b8</string> -->
-				<!-- <string>#eeaabe</string> -->
+				<string>#eeaabe</string>
 				<!-- <string>#db97ac</string> -->
-				<string>#d1899f</string>
+				<!-- <string>#d1899f</string> -->
 				<!-- <string>#db90a7</string> -->
 				<!-- <string>#b4addf</string> -->
 			</dict>
