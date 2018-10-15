@@ -87,7 +87,8 @@ cute pairs:
     "sideBar.background": "#e3e6ed",
     "sideBar.foreground": "#666d7d",
     "sideBar.border": "#e3e6ed",
-    "sideBarSectionHeader.background": "#d5d9e2",
+    // "sideBarSectionHeader.background": "#d5d9e2",
+    "sideBarSectionHeader.background": "#666d7d1c",
     "sideBarSectionHeader.foreground": "#4a4543",
     "sideBar.dropBackground": "#fdfbfb",
     "sideBarTitle.foreground": "#666d7d",
@@ -119,6 +120,8 @@ cute pairs:
     "activityBar.foreground": "#666d7d",
     "activityBarBadge.background": "#eeaabe",
     "activityBarBadge.foreground": "#fbfbfb",
+    // "activityBar.border": "#ff0000",
+    "activityBar.inactiveForeground": "#666d7d66",
 
     "menu.background": "#e3e6ed",
     "menu.foreground": "#666d7d",
