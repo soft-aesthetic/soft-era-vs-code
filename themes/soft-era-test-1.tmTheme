@@ -87,25 +87,28 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
+				<!-- <string>#e4bcbf</string> -->
 				<string>#e2d1d1</string>
 				<!-- <string>#cab7bc</string> -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Punctuation: template expressions (like ${})</string>
+			<string>Punctuation: template expressions (like ${}) and Sass interpolation expressions</string>
 			<key>scope</key>
 			<!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->
-			<string>punctuation.definition.template-expression</string>
+			<string>punctuation.definition.template-expression, punctuation.definition.interpolation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#e2e1df</string> -->
 				<!-- <string>#d3d2d1</string> -->
 				<!-- <string>#c9c8c7</string> -->
-				<string>#b4b8d0</string>
+				<!-- <string>#b4b8d0</string> -->
 				<!-- <string>#d9d8ee</string> -->
 				<!-- <string>#bbbab9</string> -->
+				<!-- <string>#3b9191</string> -->
+				<string>#e4bcbf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,7 +201,8 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ffb4b8</string> -->
-				<string>#eeaabe</string>
+				<!-- <string>#eeaabe</string> -->
+				<string>#e4bcbf</string>
 				<!-- <string>#cabf9a</string> -->
 			</dict>
 		</dict>
@@ -285,8 +289,8 @@
 				<string>#82b4e3</string>
 				<key>fontStyle</key>
 				<string>italic</string>
-				<!-- <key>background</key>
-				<string>#E9E4E18A</string> -->
+				<key>background</key>
+				<string>#E9E4E18A</string>
 			</dict>
 		</dict>
 		<dict>

@@ -107,7 +107,7 @@ cute pairs:
     "list.errorForeground": "#dd698c",
     "list.invalidItemForeground": "#e4846f", // soft-orange
     "list.warningForeground": "#CABF9A", // soft-yellow-darker
-    "list.warningForeground": "#d9c8c8", // soft-yellow-darker
+    // "list.warningForeground": "#d9c8c8", // soft-yellow-darker
     // "list.warningForeground": "#d1bebe", // soft-yellow-darker
 
     "statusBar.background": "#e3e6ed",
