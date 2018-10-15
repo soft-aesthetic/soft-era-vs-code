@@ -132,12 +132,6 @@ cute pairs:
     "menubar.selectionBackground": "#b4addf",
     "menubar.selectionForeground": "#fbfbfb",
 
-    "button.foreground": "#fbfbfb",
-    "button.background": "#25B7B8",
-    "button.hoverBackground": "#3b9191",
-    "welcomePage.buttonBackground": "#b4addf",
-    "welcomePage.buttonHoverBackground": "#958ac5",
-
     // "titleBar.activeForeground": "#666d7d",
     "titleBar.activeForeground": "#4a4543",
     "titleBar.activeBackground": "#e3e6ed",
@@ -211,6 +205,35 @@ cute pairs:
     "notifications.border": "#ebedf3",
     "notifications.foreground": "#4a4543",
 
+    "button.foreground": "#fbfbfb",
+    // "button.background": "#25B7B8",
+    // "button.hoverBackground": "#3b9191",
+    "button.background": "#98c4ba",
+    "button.hoverBackground": "#779e95",
+    "welcomePage.buttonBackground": "#b4addf",
+    "welcomePage.buttonHoverBackground": "#958ac5",
+
+    "dropdown.background": "#e4bcbf",
+    "dropdown.border": "#e4bcbf",
+    "dropdown.foreground": "#4a4543",
+    "dropdown.listBackground": "#fbfbfb",
+    "settings.dropdownBackground": "#e4bcbf",
+    "settings.dropdownBorder": "#e4bcbf",
+    "settings.dropdownForeground": "#4a4543",
+    "settings.dropdownListBorder": "#e2dcdf",
+
+    "input.background": "#fbfbfb",
+    "input.border": "#e4bcbf",
+    "input.foreground": "#4a4543",
+    "input.placeholderForeground": "#4a454322",
+    // "inputOption.activeBorder": "#b4addf",
+    "inputValidation.errorBorder": "#dd698c",
+    "inputValidation.errorForeground": "#fbfbfb",
+    "inputValidation.infoBorder": "#82B4E3",
+    "inputValidation.infoForeground": "#fbfbfb",
+    "inputValidation.warningBorder": "#e4846f",
+    "inputValidation.warningForeground": "#fbfbfb",
+
     ////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////
@@ -245,7 +268,8 @@ cute pairs:
     "editorWhitespace.foreground": "#e7d8d899", // preferable to have all "non-special characters" be a variant of background & foreground colors?
     // "editorWhitespace.foreground": "#bbbab9",
     // "editorWhitespace.foreground": "#e2e1dfdd",
-    "editorIndentGuide.background": "#e7d8d855",
+    // "editorIndentGuide.background": "#e7d8d855",
+    "editorIndentGuide.background": "#e7d8d833",
     "editorIndentGuide.activeBackground": "#e2e1df",
 
     "errorForeground": "#dd698c",
