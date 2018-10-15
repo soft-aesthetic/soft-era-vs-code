@@ -156,7 +156,7 @@
 				<key>foreground</key>
 				<string>#4a4543</string>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>
