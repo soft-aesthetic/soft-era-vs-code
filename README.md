@@ -34,10 +34,6 @@
 - Go to **Preferences > Color Theme**
 - Select `soft era` from the list of installed themes
 
-#### Clone/download and manually install:
-
-- You will have to download this folder and add it under `~/.vscode/extensions/` on mac or `C:\Users\[username]\.vscode\extensions` on windows
-
 ### Enabling Italics
 
 Preview:
@@ -173,21 +169,41 @@ Preview:
 
 ---
 
+# Contributing
+
+**First**, install **vsce** globally if you haven't yet:
+
+```bash
+npm install -g vsce
+```
+
+- (**vsce** is the VS Code extension publishing tool, and will allow you to run local/dev extensions, [info here](https://code.visualstudio.com/docs/extensions/publish-extension))
+
+Next, `git clone` this repo or your fork into:
+
+- `~/.vscode/extensions/` on mac
+- `C:\Users\[username]\.vscode\extensions` on windows
+
+If you plan to contribute, working form your own fork
+
 ## TODO
 
 (**note:** current repo version has significant visual changes from the version on the VS Code Extensions Marketplace! want to get things feelig solid/done before pushing the next big update)
 
-- [ ] rearrange code so that like, all UI shell background colors are next to each other
-- [ ] markdown sync with other styles (like quotes matching strings, etc
+- [ ] rearrange code so that like elements are near each other, (like all UI shell background colors are next to each other), making it easy to modify chunks that are supposed to appear the same/related.
+- [ ] markdown highlighting: sync with other styles (like quotes matching strings, etc
 - sidebar background / overall UI shell appearance:
   - [ ] use a more manilla-colored background to match the editor and panel background color?
   - [ ] make the cool tones more purple/lavendar?
+  - adjust contrast of type?
 - [ ] verify that `menu.*` items refer to windows file/etc buttongs
 - [ ] what breadcrumb text color makes sense in the contextual color meaning system? similar to whitespace character color? a purple indicating current place?
 - [ ] establish new "error" red?
 - [ ] object literal highlight color?
+- [ ] git diff sytling—make more legible?
 - extentions
-  - [ ] possible to style TODOs with this highlight extension? https://github.com/wayou/vscode-todo-highlight/issues/127
+  - [ ] is there a possibility to style TODOs with this highlight extension? https://github.com/wayou/vscode-todo-highlight/issues/127
+  - [ ] more support/styling for extensions would be cool!
 
 ---
 
