@@ -29,7 +29,7 @@
 ? #ffe8e3
 ? #fff3f0
 #e4bcbf
-#b8bac9
+#b8bac9 (console, other utilities?)
 #6f557388 (good for property names)
 #ddbac5 (good for tags and stuff!)
 #ffb4b8 (in terminal)
@@ -82,17 +82,15 @@ cute pairs:
     //
     "foreground": "#666d7d", // default text color in the editor
     "focusBorder": "#b4addf",
-    "focusBorder": "#ec57b4",
-    "focusBorder": "#e273b7",
-    "focusBorder": "#dd79b7",
-    "focusBorder": "#b8bac9",
     // "scrollbar.shadow": "#f9f5f4",
     "scrollbar.shadow": "#94848422",
     "widget.shadow": "#94848422",
 
     // "sideBar.background": "#fbfbfb",
     "sideBar.background": "#e3e6ed",
+    "sideBar.background": "#e3e6ed",
     "sideBar.foreground": "#666d7daa",
+    "sideBar.border": "#e3e6ed",
     "sideBar.border": "#e3e6ed",
     // "sideBarSectionHeader.background": "#d5d9e2",
     "sideBarSectionHeader.background": "#666d7d1c",
