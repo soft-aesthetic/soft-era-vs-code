@@ -29,6 +29,8 @@
 ? #ffe8e3
 ? #fff3f0
 #e4bcbf
+#6f557388 (good for property names)
+#ddbac5 (good for tags and stuff!)
 #ffb4b8 (in terminal)
 #eeaabe
 #db90a7 (arguments)
@@ -279,6 +281,9 @@ cute pairs:
     "editorIndentGuide.activeBackground": "#c0b19133",
 
     "errorForeground": "#dd698c",
+    // "errorForeground": "#e7b3c3",
+    // "errorForeground": "#dfb3c0",
+    // "errorForeground": "#ddbac5",
     "inputValidation.errorBackground": "#dd698c",
     "inputValidation.infoBackground": "#82B4E3",
     "inputValidation.warningBackground": "#e7d59a",
@@ -297,9 +302,12 @@ cute pairs:
 
     "editor.findMatchBackground": "#fffce9",
     // "editor.findMatchBorder": "#e7d59a",
-    "editor.findMatchBorder": "#e2cea4dd",
-    "editor.findMatchHighlightBackground": "#fffae0", // other match results
-    "editor.findMatchHighlightBorder": "#f1e48f",
+    "editor.findMatchBorder": "#e2cea4ee",
+    // "editor.findMatchHighlightBackground": "#fffae0", // other match results
+    // "editor.findMatchHighlightBorder": "#eee4bb",
+    "editor.findMatchHighlightBackground": "#fff7cc", // other match results
+    "editor.findMatchHighlightBorder": "#fff7cc",
+    // "editor.findMatchHighlightBorder": "#f1e48f",
     "editorOverviewRuler.findMatchForeground": "#948484",
     // "editor.findRangeHighlightBackground": "#ff0000", // TODO: what is this?
     "editor.findRangeHighlightBorder": "#f0e2c3cc",

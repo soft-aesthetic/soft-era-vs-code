@@ -190,7 +190,31 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ce9ae8</string>
+				<!-- <string>#c7a0db</string> -->
+				<!-- <string>#ce9ae8</string> -->
+				<!-- <string>#bd99cf</string> -->
+				<!-- <string>#bd99cf</string> -->
+				<!-- <string>#c08bceaa</string> -->
+				<string>#c08bceb2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Console</string>
+			<key>scope</key>
+			<string>support.class.console, support.function.console</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#c08bceb2</string> -->
+				<!-- <string>#e2e1df</string> -->
+				<!-- <string>#d3d2d1</string> -->
+				<!-- <string>#c9c8c7</string> -->
+				<string>#b4b8d0</string>
+				<!-- <string>#d9d8ee</string> -->
+				<!-- <string>#bbbab9</string> -->
+				<!-- <string>#3b9191</string> -->
+				<!-- <string>#e4bcbf</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -350,12 +374,17 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag</string>
+			<string>entity.name.tag, punctuation.definition.tag, support.class.component.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ffb4b8</string> -->
-				<string>#e7b3c3</string>
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<string>#ddbac5</string> <!-- this seems good! -->
+				<!-- <string>#dfb3c0</string> -->
+				<!-- <string>#dfb3c0</string> -->
+				<!-- <string>#e7b3c3</string> -->
 				<!-- <string>#eeaabe</string> -->
 				<!-- <string>#eeaabe</strinmg> -->
 				<!-- <string>#db97ac</string> -->
@@ -380,16 +409,21 @@
 			<key>name</key>
 			<string>Attributes and properites</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name,  support.type.property-name</string>
+			<string>entity.other.attribute-name,  support.type.property-name, support.variable.property</string>
 			<!-- <string>entity.other.attribute-name</string> -->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#948484</string>
+				<!-- <string>#4a454388</string> -->
+				<string>#6f557388</string>
+				<!-- <string>#948484</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#e4bcbf</string> -->
 				<!-- <string>#b4addf</string> -->
 				<!-- <string>#98c4ba</string> -->
 				<!-- <string>#8ebbb0</string> -->
 				<!-- <string>#3b9191</string> -->
+				
 			</dict>
 		</dict>
 		<dict>
