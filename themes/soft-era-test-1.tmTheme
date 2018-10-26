@@ -97,7 +97,7 @@
 			<string>Punctuation: template expressions (like ${}) and Sass interpolation expressions</string>
 			<key>scope</key>
 			<!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->
-			<string>punctuation.definition.template-expression, punctuation.definition.interpolation</string>
+			<string>punctuation.definition.template-expression, punctuation.definition.interpolation, variable.interpolation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -105,6 +105,7 @@
 				<!-- <string>#d3d2d1</string> -->
 				<!-- <string>#c9c8c7</string> -->
 				<!-- <string>#b4b8d0</string> -->
+				<!-- <string>#b8bac9</string> -->
 				<!-- <string>#d9d8ee</string> -->
 				<!-- <string>#bbbab9</string> -->
 				<!-- <string>#3b9191</string> -->
@@ -685,11 +686,14 @@
 			<key>name</key>
 			<string>Embedded</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded, variable.interpolation</string>
+			<string>punctuation.section.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cabf9a</string>
+				<!-- <string>#cabf9a</string> -->
+				<string>#e4bcbf</string>
+				<!-- <string>#ddbac5</string> -->
+				<!-- <string>#6f557388</string> -->
 			</dict>
 		</dict>
 		<dict>
