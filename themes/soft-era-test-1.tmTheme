@@ -130,9 +130,26 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ec57b4</string>
-				<key>fontStyle</key>
-				<string> bold</string>
+				<!-- <string>#ec57b4</string> -->
+				<string>#e273b7</string>
+				<!-- <string>#dd79b7</string> -->
+				<!-- <key>fontStyle</key>
+				<string> bold</string> -->
+			</dict>
+		</dict>
+			<dict>
+			<key>name</key>
+			<string>Operator Keywords</string>
+			<key>scope</key>
+			<string>keyword.operator.expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#ec57b4</string> -->
+				<!-- <string>#e273b7</string> -->
+				<string>#dd79b7</string>
+				<!-- <key>fontStyle</key>
+				<string> bold</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -659,7 +676,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#948484</string>
+				<!-- <string>#948484</string> -->
+				<string>#e4bcbf</string>
 			</dict>
 		</dict>
 		<dict>
