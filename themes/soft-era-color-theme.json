@@ -317,12 +317,15 @@ cute pairs:
     // "editor.hoverHighlightBackground": "#ffffffaa",
     "editor.hoverHighlightBackground": "#ffffffff",
     // "editor.wordHighlightBorder": "#f0e2c3cc",
-    "editor.wordHighlightBorder": "#e2cea4dd",
+    // "editor.wordHighlightBorder": "#e2cea4dd",
+    "editor.wordHighlightBorder": "#ddc5a7dd",
     "editor.wordHighlightBackground": "#fffaf5b2",
     // "editor.selectionHighlightBackground": "#feffbf3d",
     // "editor.selectionHighlightBorder": "#f1e48fd7",
-    "editor.selectionHighlightBackground": "#feffbf11",
-    "editor.selectionHighlightBorder": "#e2cea4ff",
+    // "editor.selectionHighlightBackground": "#feffbf11",
+    // "editor.selectionHighlightBorder": "#e2cea4ff",
+    "editor.selectionHighlightBackground": "#ffffff00",
+    "editor.selectionHighlightBorder": "#ddc5a7dd",
     // "editor.selectionHighlightBorder": "#b9af69d7",
 
     // TODO: how to style TODOs with this highlight extension?
