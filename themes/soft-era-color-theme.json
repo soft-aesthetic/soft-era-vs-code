@@ -340,8 +340,6 @@ cute pairs:
     // "panel.background": "#ede8ea", // nice!!! maybe too dark tho :((
     "panel.background": "#f1ecee", // nice!!! maybe too dark tho :((
     "panel.border": "#f1ecee",
-    "panel.border": "#82b4e3",
-    "panel.border": "#91b8dd",
     "panel.dropBackground": "#cfc9f466",
     "panelTitle.activeBorder": "#b4addf",
     "panelTitle.activeForeground": "#958ac5",
