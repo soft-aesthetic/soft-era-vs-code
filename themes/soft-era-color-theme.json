@@ -80,12 +80,12 @@ cute pairs:
     "foreground": "#666d7d", // default text color in the editor
     "focusBorder": "#b4addf",
     // "scrollbar.shadow": "#f9f5f4",
-    "scrollbar.shadow": "#94848444",
+    "scrollbar.shadow": "#94848422",
     "widget.shadow": "#94848422",
 
     // "sideBar.background": "#fbfbfb",
     "sideBar.background": "#e3e6ed",
-    "sideBar.foreground": "#666d7d",
+    "sideBar.foreground": "#666d7daa",
     "sideBar.border": "#e3e6ed",
     // "sideBarSectionHeader.background": "#d5d9e2",
     "sideBarSectionHeader.background": "#666d7d1c",
@@ -96,10 +96,12 @@ cute pairs:
     "list.activeSelectionForeground": "#ffffff",
     "list.activeSelectionBackground": "#b4addf",
     "list.dropBackground": "#fdfbfb",
-    "list.highlightForeground": "#dd698c",
+    // "list.highlightForeground": "#dd698c",
+    "list.highlightForeground": "#4a4543",
     "list.hoverBackground": "#eceafa",
     "list.focusBackground": "#cfc9f4",
-    "list.focusForeground": "#ffffff",
+    // "list.focusForeground": "#ffffff",
+    "list.focusForeground": "#4a4543",
     "list.hoverForeground": "#4a4543",
     // "list.inactiveFocusBackground": "#ebedf3",
     "list.inactiveFocusBackground": "#e9ecf1",
@@ -117,11 +119,14 @@ cute pairs:
     "statusBar.foreground": "#666d7d",
 
     "activityBar.background": "#e3e6ed",
-    "activityBar.foreground": "#666d7d",
+    "activityBar.foreground": "#666d7dcc",
+    // "activityBar.foreground": "#958ac5",
+    "activityBar.inactiveForeground": "#666d7d44",
     "activityBarBadge.background": "#eeaabe",
+    "activityBarBadge.background": "#e7b3c3",
     "activityBarBadge.foreground": "#fbfbfb",
     // "activityBar.border": "#ff0000",
-    "activityBar.inactiveForeground": "#666d7d66",
+    "activityBar.dropBackground": "#fdfbfb",
 
     "menu.background": "#e3e6ed",
     "menu.foreground": "#666d7d",
@@ -143,9 +148,10 @@ cute pairs:
 
     "breadcrumb.background": "#f9f5f4",
     // "breadcrumb.foreground": "#c9c8c7",
-    "breadcrumb.foreground": "#b4b8d0",
+    // "breadcrumb.foreground": "#b4b8d0",
+    "breadcrumb.foreground": "#d9c8c8",
     "breadcrumb.activeSelectionForeground": "#4a4543",
-    "breadcrumb.focusForeground": "#db90a7",
+    "breadcrumb.focusForeground": "#b4addf",
     "breadcrumbPicker.background": "#fbfbfb",
 
     "editorGroup.emptyBackground": "#ECECF0",
@@ -191,8 +197,6 @@ cute pairs:
     "editorSuggestWidget.selectedBackground": "#eceafa",
     // "debugExceptionWidget.background": "#ff0000",
     // "debugExceptionWidget.border": "#ff0000",
-
-    "activityBar.dropBackground": "#fdfbfb",
 
     // "notificationCenter.border": "#fdfbfb",
     // "notificationToast.border": "#ffffff",
@@ -269,8 +273,10 @@ cute pairs:
     // "editorWhitespace.foreground": "#bbbab9",
     // "editorWhitespace.foreground": "#e2e1dfdd",
     // "editorIndentGuide.background": "#e7d8d855",
-    "editorIndentGuide.background": "#e7d8d833",
-    "editorIndentGuide.activeBackground": "#e2e1df",
+    "editorIndentGuide.background": "#e7d8d800",
+    // "editorIndentGuide.activeBackground": "#e2e1df",
+    // "editorIndentGuide.activeBackground": "#e2cea466",
+    "editorIndentGuide.activeBackground": "#c0b19133",
 
     "errorForeground": "#dd698c",
     "inputValidation.errorBackground": "#dd698c",
@@ -290,7 +296,8 @@ cute pairs:
     "gitDecoration.modifiedResourceForeground": "#d3a656",
 
     "editor.findMatchBackground": "#fffce9",
-    "editor.findMatchBorder": "#e7d59a",
+    // "editor.findMatchBorder": "#e7d59a",
+    "editor.findMatchBorder": "#e2cea4dd",
     "editor.findMatchHighlightBackground": "#fffae0", // other match results
     "editor.findMatchHighlightBorder": "#f1e48f",
     "editorOverviewRuler.findMatchForeground": "#948484",
@@ -298,10 +305,14 @@ cute pairs:
     "editor.findRangeHighlightBorder": "#f0e2c3cc",
     // "editor.hoverHighlightBackground": "#ffffffaa",
     "editor.hoverHighlightBackground": "#ffffffff",
-    "editor.wordHighlightBorder": "#f0e2c3cc",
+    // "editor.wordHighlightBorder": "#f0e2c3cc",
+    "editor.wordHighlightBorder": "#e2cea4dd",
     "editor.wordHighlightBackground": "#fffaf5b2",
-    "editor.selectionHighlightBackground": "#feffbf3d",
-    "editor.selectionHighlightBorder": "#f1e48fd7",
+    // "editor.selectionHighlightBackground": "#feffbf3d",
+    // "editor.selectionHighlightBorder": "#f1e48fd7",
+    "editor.selectionHighlightBackground": "#feffbf11",
+    "editor.selectionHighlightBorder": "#e2cea4ff",
+    // "editor.selectionHighlightBorder": "#b9af69d7",
 
     // TODO: how to style TODOs with this highlight extension?
 

@@ -83,7 +83,7 @@
 			<string>Punctuation</string>
 			<key>scope</key>
 			<!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->
-			<string>punctuation, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array</string>
+			<string>punctuation, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array, meta.brace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -157,6 +157,7 @@
 				<string>#4a4543</string>
 				<key>fontStyle</key>
 				<string>normal</string>
+				<!-- <string>italic</string> include this default for cursive fonts? -->
 			</dict>
 		</dict>
 		<dict>
@@ -354,7 +355,9 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ffb4b8</string> -->
-				<string>#eeaabe</strinmg>
+				<string>#e7b3c3</string>
+				<!-- <string>#eeaabe</string> -->
+				<!-- <string>#eeaabe</strinmg> -->
 				<!-- <string>#db97ac</string> -->
 				<!-- <string>#d1899f</string> -->
 				<!-- <string>#db90a7</string> -->
