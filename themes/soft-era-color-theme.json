@@ -2,6 +2,7 @@
 #958ac5
 ? #988cca
 ? #a29acb
+? #c2addf
 #b4addf
 #cfc9f4 / #cfc9f499 / #cfc9f466 / #c8bfff34 (selection background)
 #eceafa
@@ -82,6 +83,8 @@ cute pairs:
     //
     "foreground": "#666d7dbb", // default text color in the editor
     "focusBorder": "#b4addf",
+    "focusBorder": "#d0b3ea",
+    "focusBorder": "#c9afe0",
     // "scrollbar.shadow": "#f9f5f4",
     "scrollbar.shadow": "#94848422",
     "scrollbarSlider.background": "#e4bcbf55",
@@ -216,8 +219,10 @@ cute pairs:
     "button.foreground": "#fbfbfb",
     // "button.background": "#25B7B8",
     // "button.hoverBackground": "#3b9191",
-    "button.background": "#98c4ba",
-    "button.hoverBackground": "#779e95",
+    // "button.background": "#98c4ba",
+    // "button.hoverBackground": "#779e95",
+    "button.background": "#87b6b6",
+    "button.hoverBackground": "#72948c",
     "welcomePage.buttonBackground": "#b4addf",
     "welcomePage.buttonHoverBackground": "#958ac5",
 

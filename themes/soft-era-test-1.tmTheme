@@ -60,7 +60,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#db90a7</string>
+				<string>#c9afe0</string>
+				<!-- <string>#c9afe0</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#db90a7</string> -->
 				<!-- <string>#cfc9f4</string> -->
 				<!-- <string>#b4addf</string> -->
 				<!-- <string>#d0addf</string> -->
@@ -261,7 +264,7 @@
 			<key>name</key>
 			<string>Types</string>
 			<key>scope</key>
-			<string>entity.name.type, storage.type</string> <!--  storage.type styles arrow function arrow, storage.type.function seems to override below i hope -->
+			<string>entity.name.type, storage.type</string> 
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -274,46 +277,39 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, support.function.any-method, storage.function</string>
+			<string>entity.name.function, support.function, support.function.any-method, storage.function, storage.type.function.arrow, keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
+				<!-- <string>#25b7b8</string> -->
+				<!-- <string>#98c4ba</string> -->
+				<string>#87b6b6</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>'function' word when defining</string>
 			<key>scope</key>
-			<string>storage.type.function</string>
+			<string>storage.type.function, meta.function-call entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
+				<string>#87b6b6</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Methods</string>
+			<string>arrow for arrow function</string>
 			<key>scope</key>
-			<string>keyword.other.special-method</string>
+			<string>storage.type.function.arrow, support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Support</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#25b7b8</string>
+				<string>#87b6b6</string>
+				<key>fontStyle</key>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>
@@ -501,7 +497,9 @@
 				<string></string>
 				<key>foreground</key>
 				<!-- <string>#01a0e4</string> -->
-				<string>#25b7b8</string>
+				<!-- <string>#25b7b8</string> -->
+				<string>#98c4ba</string>
+				<!-- <string>#87b6b6</string> -->
 			</dict>
 		</dict>
 		<dict>
