@@ -201,6 +201,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Variables this</string>
+			<key>scope</key>
+			<string>variable.language.this</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e4bcbf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
 			<string>storage</string>
@@ -223,7 +234,7 @@
 				<!-- <string>#bd99cf</string> -->
 				<!-- <string>#bd99cf</string> -->
 				<!-- <string>#c08bceaa</string> -->
-				<string>#c08bceb2</string>
+				<string>#c08bced5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,9 +292,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<!-- <string>#25b7b8</string> -->
+				<string>#25b7b8</string>
 				<!-- <string>#98c4ba</string> -->
-				<string>#87b6b6</string>
+				<!-- <string>#87b6b6</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -294,7 +305,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#87b6b6</string>
+				<string>#25b7b8</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -307,7 +318,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#87b6b6</string>
+				<string>#25b7b8</string>
 				<key>fontStyle</key>
 				<string>normal</string>
 			</dict>

@@ -83,8 +83,6 @@ cute pairs:
     //
     "foreground": "#666d7dbb", // default text color in the editor
     "focusBorder": "#b4addf",
-    "focusBorder": "#d0b3ea",
-    "focusBorder": "#c9afe0",
     // "scrollbar.shadow": "#f9f5f4",
     "scrollbar.shadow": "#94848422",
     "scrollbarSlider.background": "#e4bcbf55",
@@ -295,6 +293,11 @@ cute pairs:
     "inputValidation.infoBackground": "#82b4e3",
     "inputValidation.warningBackground": "#e7d59a",
 
+    "editor.snippetFinalTabstopHighlightBackground": "#98c4ba22",
+    "editor.snippetFinalTabstopHighlightBorder": "#98c4ba44",
+    "editor.snippetTabstopHighlightBackground": "#98c4ba22",
+    "editor.snippetTabstopHighlightBorder": "#98c4ba44",
+
     "editorGroup.dropBackground": "#cfc9f466",
 
     "editorCodeLens.foreground": "#e7d8d8",
@@ -325,9 +328,13 @@ cute pairs:
     // "gitlens.trailingLineBackgroundColor": "#ff0000",`
     // "gitlens.trailingLineForegroundColor": "#ff0000",`
 
+    "editor.findRangeHighlightBackground": "#e4bcbf33",
+    "editor.wordHighlightStrongBackground": "#e4bcbf33",
+    "editor.rangeHighlightBackground": "#e4bcbf33",
     "editor.findMatchBackground": "#fffce9",
     // "editor.findMatchBorder": "#e7d59a",
-    "editor.findMatchBorder": "#e2cea4ee",
+    // "editor.findMatchBorder": "#e2cea4ee",
+    "editor.findMatchBorder": "#e4bcbf",
     // "editor.findMatchHighlightBackground": "#fffae0", // other match results
     // "editor.findMatchHighlightBorder": "#eee4bb",
     "editor.findMatchHighlightBackground": "#fff7cc", // other match results
@@ -348,6 +355,7 @@ cute pairs:
     // "editor.selectionHighlightBorder": "#e2cea4ff",
     "editor.selectionHighlightBackground": "#ffffff00",
     "editor.selectionHighlightBorder": "#ddc5a7dd",
+    // "editorOverviewRuler.selectionHighlightForeground": "#ddc5a7aa",
     // "editor.selectionHighlightBorder": "#b9af69d7",
 
     // TODO: how to style TODOs with this highlight extension?
