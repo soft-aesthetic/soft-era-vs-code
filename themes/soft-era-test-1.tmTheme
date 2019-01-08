@@ -139,8 +139,10 @@
 			<dict>
 				<key>foreground</key>
 				<!-- <string>#ec57b4</string> -->
-				<string>#e273b7</string>
-				<!-- <string>#dd79b7</string> -->
+				<!-- <string>#e273b7</string> -->
+				<!-- <string>#e273b7</string> -->
+				<!-- <string>#da8fbd</string> -->
+				<string>#dd79b7</string>
 				<!-- <key>fontStyle</key>
 				<string> bold</string> -->
 			</dict>
@@ -218,7 +220,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BE88D9</string>
+				<!-- <string>#BE88D9</string> -->
+				<string>#c9afe0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -235,6 +238,7 @@
 				<!-- <string>#bd99cf</string> -->
 				<!-- <string>#c08bceaa</string> -->
 				<string>#c08bced5</string>
+				<!-- <string>#c9afe0</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -250,7 +254,7 @@
 				<!-- <string>#d3d2d1</string> -->
 				<!-- <string>#c9c8c7</string> -->
 				<!-- <string>#b4b8d0</string> -->
-				<string>#b8bac9</string>
+				<string>#b8bac9aa</string>
 				<!-- <string>#d9d8ee</string> -->
 				<!-- <string>#bbbab9</string> -->
 				<!-- <string>#3b9191</string> -->
@@ -268,7 +272,8 @@
 				<!-- <string>#ffb4b8</string> -->
 				<!-- <string>#eeaabe</string> -->
 				<!-- <string>#e4bcbf</string> -->
-				<string>#cabf9a</string>
+				<string>#eeaabe</string>
+				<!-- <string>#cabf9a</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -286,6 +291,19 @@
 			<!-- meta.function is default of all block -->
 		<dict>
 			<key>name</key>
+			<string>function definition keyword</string>
+			<key>scope</key>
+			<string>storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4a4543d2</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
 			<string>entity.name.function, support.function, support.function.any-method, storage.function, storage.type.function.arrow, keyword.other.special-method</string>
@@ -294,6 +312,8 @@
 				<key>foreground</key>
 				<string>#25b7b8</string>
 				<!-- <string>#98c4ba</string> -->
+				<!-- <string>#53abab</string> -->
+				<!-- <string>#98c4ba</string> -->
 				<!-- <string>#87b6b6</string> -->
 			</dict>
 		</dict>
@@ -301,7 +321,7 @@
 			<key>name</key>
 			<string>'function' word when defining</string>
 			<key>scope</key>
-			<string>storage.type.function, meta.function-call entity.name.function</string>
+			<string>meta.function-call</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -412,10 +432,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
+				<!-- <string>#ddbac5</string> this seems good! -->
+				<!-- <string>#ddbac5</string> -->
+				<!-- <string>#d6b1bc</string> -->
+				<!-- <string>#dfb3c0</string> -->
+				<string>#a19597</string>
 				<!-- <string>#ffb4b8</string> -->
 				<!-- <string>#e4bcbf</string> -->
 				<!-- <string>#e4bcbf</string> -->
-				<string>#ddbac5</string> <!-- this seems good! -->
 				<!-- <string>#dfb3c0</string> -->
 				<!-- <string>#dfb3c0</string> -->
 				<!-- <string>#e7b3c3</string> -->
@@ -523,7 +547,9 @@
 				<key>foreground</key>
 				<!-- <string>#ec57b4</string> -->
 				<!-- <string>#db90a7</string> -->
-				<string>#dd698c</string>
+				<!-- <string>#dd698c</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<string>#eeaabe</string>
 			</dict>
 		</dict>
 		<dict>
@@ -541,6 +567,8 @@
 				<string>#948484</string>
 				<key>fontStyle</key>
 				<string> bold</string>
+					<key>foreground</key>
+				<string>#a16a94</string>
 			</dict>
 		</dict>
 		<dict>
