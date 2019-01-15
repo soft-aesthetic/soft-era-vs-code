@@ -142,7 +142,8 @@
 				<!-- <string>#e273b7</string> -->
 				<!-- <string>#e273b7</string> -->
 				<!-- <string>#da8fbd</string> -->
-				<string>#dd79b7</string>
+				<!-- <string>#dd79b7</string> -->
+				<string>#da8fbd</string>
 				<!-- <key>fontStyle</key>
 				<string> bold</string> -->
 			</dict>
