@@ -181,7 +181,7 @@
 			<key>name</key>
 			<string>Keywords</string>
 			<key>scope</key>
-			<string>keyword.control</string>
+			<string>keyword.control, punctuation.definition.keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
