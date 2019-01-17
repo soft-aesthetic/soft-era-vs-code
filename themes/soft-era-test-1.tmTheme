@@ -229,7 +229,7 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>meta.class, support.class, entity.name.class, entity.name.type.class, entity.other.attribute-name.class, entity.other.attribute-name.class.css</string>
+			<string>meta.class, support.class, entity.name.class, entity.name.type.class, entity.other.attribute-name.class, entity.other.attribute-name.class.css, punctuation.definition.entity.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -311,11 +311,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
+				<!-- <string>#25b7b8</string> -->
 				<!-- <string>#98c4ba</string> -->
+				<string>#87b6b6</string>
 				<!-- <string>#53abab</string> -->
-				<!-- <string>#98c4ba</string> -->
-				<!-- <string>#87b6b6</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -326,7 +325,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
+				<!-- <string>#25b7b8</string> -->
+				<!-- <string>#98c4ba</string> -->
+				<string>#87b6b6</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -339,7 +340,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#25b7b8</string>
+				<!-- <string>#25b7b8</string> -->
+				<!-- <string>#98c4ba</string> -->
+				<string>#87b6b6</string>
 				<key>fontStyle</key>
 				<string>normal</string>
 			</dict>
@@ -534,8 +537,8 @@
 				<key>foreground</key>
 				<!-- <string>#01a0e4</string> -->
 				<!-- <string>#25b7b8</string> -->
-				<string>#98c4ba</string>
-				<!-- <string>#87b6b6</string> -->
+				<!-- <string>#98c4ba</string> -->
+				<string>#87b6b6</string>
 			</dict>
 		</dict>
 		<dict>
