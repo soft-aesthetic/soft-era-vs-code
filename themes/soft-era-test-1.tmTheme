@@ -663,6 +663,7 @@
 		<dict>
 			<key>name</key>
 			<string>Inserted</string>
+			<!-- space for satan -->
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
