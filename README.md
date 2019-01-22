@@ -209,4 +209,4 @@ If you plan to contribute, working form your own fork
 
 Happy to hear any input <3
 
-💖 [@animalphase](https://twitter.com/animalphase) on twitter
+💖 [@lovemecomputer\_](https://twitter.com/lovemecomputer_) on twitter
