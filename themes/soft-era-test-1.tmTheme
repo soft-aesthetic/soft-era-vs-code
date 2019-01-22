@@ -663,6 +663,7 @@
 			<string>meta.link</string>
 			<key>settings</key>
 			<dict>
+				<!-- space for satan -->
 				<key>foreground</key>
 				<string>#ec57b4</string>
 			</dict>
@@ -705,7 +706,6 @@
 		<dict>
 			<key>name</key>
 			<string>Inserted</string>
-			<!-- space for satan -->
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
