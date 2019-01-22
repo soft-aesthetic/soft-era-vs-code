@@ -36,6 +36,7 @@
 #ffb4b8 (in terminal)
 #eeaabe
 #db90a7 (arguments)
+#ea8297
 #dd698c
 #e4846f
 #cabf9a
@@ -288,8 +289,10 @@ cute pairs:
     "editor.selectionBackground": "#eceafa",
     "editor.selectionForeground": "#958ac5",
     "editor.inactiveSelectionBackground": "#e2e1dfaa",
-    "editorBracketMatch.background": "#4a4543",
-    "editorBracketMatch.border": "#4a4543",
+    // "editorBracketMatch.background": "#4a4543",
+    // "editorBracketMatch.border": "#4a4543",
+    "editorBracketMatch.background": "#6f557388",
+    "editorBracketMatch.border": "#6f557300",
     "editorError.foreground": "#dd698ccc", // soft-red
     "editorInfo.foreground": "#82b4e3",
     "editorHint.foreground": "#98c4ba", // soft-yellow-darker
