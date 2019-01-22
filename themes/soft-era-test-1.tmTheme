@@ -654,19 +654,21 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#db90a7</string>
+				<!-- <string>#db90a7</string> -->
+				<string>#82b4e3</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Link Url</string>
 			<key>scope</key>
-			<string>meta.link</string>
+			<string>meta.link, markup.underline.link.image.markdown, meta.image.inline.markdown, meta.image.inline.markdown, punctuation.definition.metadata.markdown</string>
+				<!-- space for satan -->
 			<key>settings</key>
 			<dict>
-				<!-- space for satan -->
 				<key>foreground</key>
-				<string>#ec57b4</string>
+				<!-- <string>#ec57b4</string> -->
+				<string>#eeaabe</string>
 			</dict>
 		</dict>
 		<dict>
@@ -678,6 +680,7 @@
 			<dict>
 				<key>foreground</key>
 				<string>#b4addf</string>
+				<!-- <string>#87b6b6</string> -->
 			</dict>
 		</dict>
 		<dict>
