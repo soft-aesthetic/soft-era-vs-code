@@ -508,11 +508,12 @@
 			<key>name</key>
 			<string>Attribute IDs</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id, punctuation.definition.entity</string>
+			<string>entity.other.attribute-name.id, punctuation.definition.entity, constant.character.entity.named</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cabf9a</string>
+				<!-- <string>#cabf9a</string> -->
+				<string>#e4bcbf</string>
 			</dict>
 		</dict>
 		<dict>
