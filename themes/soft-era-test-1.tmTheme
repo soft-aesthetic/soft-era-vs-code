@@ -675,7 +675,7 @@
 			<key>name</key>
 			<string>Lists</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>markup.list, punctuation.definition.list.begin.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
