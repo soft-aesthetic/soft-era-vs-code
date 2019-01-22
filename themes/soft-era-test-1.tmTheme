@@ -123,11 +123,27 @@
 			<key>name</key>
 			<string>Delimiters</string>
 			<key>scope</key>
-			<string>none</string>
+			<string>punctuation.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e2d1d1</string>
+				<!-- <string>#e2d1d1</string> -->
+				<!-- <string>#db90a7</string> -->
+				<string>#e4bcbf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object separator key value</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#da8fbd</string> -->
+				<!-- <string>#db90a7</string> -->
+				<string>#e4bcbf</string>
+				<!-- <string>#e2d1d1</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -590,9 +606,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Code</string>
+			<string>Code - inline</string>
 			<key>scope</key>
-			<string>markup.raw.inline</string>
+			<string>markup.raw.inline, markup.inline.raw.string.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -600,7 +616,32 @@
 				<!-- <string>#C8B3B3</string> -->
 				<!-- <string>#bfa4a4</string> -->
 				<!-- <string>#ba989c</string> -->
-				<string>#948484</string>
+				<!-- <string>#948484</string> -->
+				<!-- <string>#cabf9a</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#ddbac5</string> -->
+				<string>#6f557388</string>
+				<!-- <string>#b8bac9</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Code - block</string>
+			<key>scope</key>
+			<string>markup.fenced_code.block.markdown, punctuation.definition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#e2d1d1</string> -->
+				<!-- <string>#C8B3B3</string> -->
+				<!-- <string>#bfa4a4</string> -->
+				<!-- <string>#ba989c</string> -->
+				<!-- <string>#948484</string> -->
+				<!-- <string>#cabf9a</string> -->
+				<!-- <string>#e4bcbf</string> -->
+				<!-- <string>#ddbac5</string> -->
+				<string>#6f557388</string>
+				<!-- <string>#b8bac9</string> -->
 			</dict>
 		</dict>
 		<dict>
