@@ -19,6 +19,7 @@
 #ba989c (!! main foreground)
 #bfa4a4
 #c8b3b3
+#c7b8be
 #d9c8c8
 #ddcdce
 #e2d1d1
@@ -420,32 +421,27 @@ cute pairs:
 
     // "terminal.border": "#e2e1dfdd",
     "terminal.border": "#e2dcdf",
-    // "terminal.background": "#F9F5F5",
     "terminal.background": "#f1ecee",
-    "terminal.foreground": "#ba989c",
-    // "terminal.foreground": "#aa8689",
-    // "terminal.foreground": "#c7b8be",
-    // "terminal.foreground": "#a1858f",
+    "terminal.foreground": "#c29ba3",
     "terminal.selectionBackground": "#c8bfff34",
     "terminalCursor.background": "#4a4543",
     "terminalCursor.foreground": "#eeaabe",
     "terminal.ansiBlack": "#4a4543",
-    "terminal.ansiBlue": "#82b3e2",
-    "terminal.ansiCyan": "#b4adde",
-    "terminal.ansiGreen": "#98c4ba",
-    "terminal.ansiMagenta": "#eeaabe",
-    "terminal.ansiRed": "#ea8297",
-    // "terminal.ansiWhite": "#f9f5f4",
-    "terminal.ansiWhite": "#f1ecee",
+    "terminal.ansiRed": "#db90a7",
+    "terminal.ansiGreen": "#87b6b6",
     "terminal.ansiYellow": "#ffb4b8",
-    "terminal.ansiBrightBlack": "#4a4543",
-    "terminal.ansiBrightBlue": "#82b3e2",
-    "terminal.ansiBrightCyan": "#b4adde",
+    "terminal.ansiBlue": "#32abde",
+    "terminal.ansiMagenta": "#be88d9",
+    "terminal.ansiCyan": "#958ac5",
+    "terminal.ansiWhite": "#f1ecee",
+    "terminal.ansiBrightBlack": "#6f5573",
+    "terminal.ansiBrightRed": "#eeaabe",
     "terminal.ansiBrightGreen": "#98c4ba",
-    "terminal.ansiBrightMagenta": "#eeaabe",
-    "terminal.ansiBrightRed": "#ea8297",
-    "terminal.ansiBrightWhite": "#f9f5f4",
-    "terminal.ansiBrightYellow": "#ffb4b8"
+    "terminal.ansiBrightYellow": "#e7d59a",
+    "terminal.ansiBrightBlue": "#82b3e2",
+    "terminal.ansiBrightMagenta": "#ce9ae8",
+    "terminal.ansiBrightCyan": "#b4addf",
+    "terminal.ansiBrightWhite": "#ffffff"
   },
   "name": "soft era"
 }
