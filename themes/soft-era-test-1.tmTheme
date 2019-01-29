@@ -803,7 +803,8 @@
 				<key>background</key>
 				<string>#fdfdfd</string>
 				<key>foreground</key>
-				<string>#dd698c</string>
+				<!-- <string>#dd698c</string> -->
+				<string>#dd698ccc</string>
 			</dict>
 		</dict>
 	</array>
