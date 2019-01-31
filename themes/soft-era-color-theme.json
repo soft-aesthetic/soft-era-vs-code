@@ -3,6 +3,8 @@
 ? #988cca
 ? #a29acb
 ? #c2addf
+? #8396d8
+? #8c99d6 - lookin for a chill higher contrast
 #b4addf
 #cfc9f4 / #cfc9f499 / #cfc9f466 / #c8bfff34 (selection background)
 #eceafa
@@ -28,6 +30,7 @@
 #e2e1df (whitespace characters background) / #e2e1dfdd
 #e2e1df 
 #f9f5f4 (!! main background)
+#f5eded
 ? #ffe8e3
 ? #fff3f0
 #e4bcbf (good shit right here!!!!)
@@ -419,6 +422,7 @@ cute pairs:
     // "panelTitle.inactiveForeground": "#c7b8be", // nice color!!! more contrast?
     "panelTitle.inactiveForeground": "#c0aeb5",
 
+    // "terminal.border": "#e2e1dfdd",
     // "terminal.border": "#e2e1dfdd",
     "terminal.border": "#e2dcdf",
     "terminal.background": "#f1ecee",
