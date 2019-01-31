@@ -296,8 +296,8 @@ cute pairs:
     "editor.selectionBackground": "#eceafa",
     "editor.selectionForeground": "#958ac5",
     "editor.inactiveSelectionBackground": "#e2e1dfaa",
-    "editorBracketMatch.background": "#4a4543",
-    "editorBracketMatch.border": "#4a4543",
+    "editorBracketMatch.background": "#e4bcbf33",
+    "editorBracketMatch.border": "#e4bcbf33",
     "editorError.foreground": "#dd698ccc", // soft-red
     "editorInfo.foreground": "#82b4e3",
     "editorHint.foreground": "#98c4ba", // soft-yellow-darker
