@@ -449,7 +449,7 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag, support.class.component.js</string>
+			<string>entity.name.tag, punctuation.definition.tag, support.class.component.js, punctuation.definition.block.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
