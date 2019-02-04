@@ -109,7 +109,6 @@ cute pairs:
     "sideBarSectionHeader.border": "#e3e6ed",
     "sideBar.dropBackground": "#fdfbfb",
     "sideBarTitle.foreground": "#666d7d",
-
     "list.activeSelectionForeground": "#ffffff",
     // "list.activeSelectionBackground": "#b4addf",
     "list.activeSelectionBackground": "#e4bcbf",
@@ -128,7 +127,7 @@ cute pairs:
     // "list.inactiveSelectionBackground": "#ececf1",
     "list.inactiveSelectionBackground": "#e4bcbf33",
     "list.inactiveSelectionForeground": "#666d7d",
-    "list.errorForeground": "#dd698c",
+    "list.errorForeground": "#dd698ccc",
     "list.invalidItemForeground": "#e4846f", // soft-orange
     // "list.warningForeground": "#CABF9A", // soft-yellow-darker
     // "list.warningForeground": "#d9c8c8", // soft-yellow-darker
@@ -262,12 +261,12 @@ cute pairs:
     "input.foreground": "#4a4543d2",
     "input.placeholderForeground": "#4a454322",
     // "inputOption.activeBorder": "#b4addf",
-    "inputValidation.errorBorder": "#dd698c",
-    "inputValidation.errorForeground": "#fbfbfb",
+    "inputValidation.errorBorder": "#dd698ccc",
+    "inputValidation.errorForeground": "#dd698ccc",
     "inputValidation.infoBorder": "#82b4e3",
-    "inputValidation.infoForeground": "#fbfbfb",
+    "inputValidation.infoForeground": "#82b4e3",
     "inputValidation.warningBorder": "#e4846f",
-    "inputValidation.warningForeground": "#fbfbfb",
+    "inputValidation.warningForeground": "#e4846f",
 
     ////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////
