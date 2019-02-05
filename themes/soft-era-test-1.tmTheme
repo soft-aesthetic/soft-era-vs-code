@@ -449,7 +449,7 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag, support.class.component.js</string>
+			<string>entity.name.tag, punctuation.definition.tag, support.class.component.js, punctuation.definition.block.tag, punctuation.definition.inline.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -803,7 +803,6 @@
 				<key>background</key>
 				<string>#fdfdfd</string>
 				<key>foreground</key>
-				<!-- <string>#dd698c</string> -->
 				<string>#dd698ccc</string>
 			</dict>
 		</dict>

@@ -165,6 +165,21 @@ Preview:
 }
 ```
 
+### Bracket colorizers
+
+Example nice config for a bracket colorizer plugin, like [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+
+```json
+"bracket-pair-colorizer-2.colors": [
+    "Plum",
+    "#E9B4AE",
+    "#9AE3A1",
+    "PowderBlue",
+    "LightPink",
+    "LightSkyBlue"
+  ],
+```
+
 💾 enjoy <3
 
 ---
