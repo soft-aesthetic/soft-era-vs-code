@@ -663,8 +663,8 @@
 			<key>name</key>
 			<string>Link Url</string>
 			<key>scope</key>
-			<string>meta.link, markup.underline.link.image.markdown, meta.image.inline.markdown, meta.image.inline.markdown, punctuation.definition.metadata.markdown</string>
 				<!-- space for satan -->
+			<string>meta.link, markup.underline.link.image.markdown, meta.image.inline.markdown, meta.image.inline.markdown, punctuation.definition.metadata.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
