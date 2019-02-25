@@ -43,6 +43,8 @@ Preview:
 - To configure VS Code to support italic styles add the code below to your config file in your workspace settings.
   - 🍎 **Mac OSX:** **Code > Preferences > Settings**
   - 🔲 **Windows / 🐧 Linux:** **File > Preferences > Settings**
+  - Then, click this ` {} ` button to open the settings json file 
+    - (this button moves around a lot, currently it's in line with the editor tabs)
 
 ```json
 "editor.tokenColorCustomizations": {
