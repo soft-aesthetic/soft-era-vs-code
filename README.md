@@ -41,8 +41,8 @@ Preview:
 ![soft era syntax with italics enabled](italic.png)
 
 - To configure VS Code to support italic styles add the code below to your config file in your workspace settings.
-  - On Windows/Linux - **File > Preferences > Settings**
-  - On macOS - **Code > Preferences > Settings**
+  - 🍎 **Mac OSX:** **Code > Preferences > Settings**
+  - 🔲 **Windows / 🐧 Linux:** **File > Preferences > Settings**
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -192,14 +192,15 @@ Example nice config for a bracket colorizer plugin, like [Bracket Pair Colorizer
 npm install -g vsce
 ```
 
-- (**vsce** is the VS Code extension publishing tool, and will allow you to run local/dev extensions, [info here](https://code.visualstudio.com/docs/extensions/publish-extension))
+  - (**vsce** is the VS Code extension publishing tool, and will allow you to run local/dev extensions, [info here](https://code.visualstudio.com/docs/extensions/publish-extension))
 
-Next, `git clone` this repo or your fork into:
+Next, `git clone` this repo (or your fork of it) into:
 
-- `~/.vscode/extensions/` on mac
-- `C:\Users\[username]\.vscode\extensions` on windows
+- 🍎 **Mac OSX:** `~/.vscode/extensions/`
+- 🔲 **Windows:** `C:\Users\[username]\.vscode\extensions`
+- 🐧 **Linux:** `$HOME/.vscode/extensions`
 
-If you plan to contribute, working form your own fork
+// README TODO: what to do here if the theme doesn't show up at this point? something also changed recently with VS Code extensions…
 
 ## TODO
 
