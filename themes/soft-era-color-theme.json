@@ -441,7 +441,7 @@ cute pairs:
     "terminal.ansiMagenta": "#be88d9",
     "terminal.ansiCyan": "#958ac5",
     "terminal.ansiWhite": "#f1ecee",
-    "terminal.ansiBrightBlack": "#6f5573",
+    "terminal.ansiBrightBlack": "#e7cecd",
     "terminal.ansiBrightRed": "#eeaabe",
     "terminal.ansiBrightGreen": "#98c4ba",
     "terminal.ansiBrightYellow": "#e7d59a",
